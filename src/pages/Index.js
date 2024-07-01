@@ -9,18 +9,15 @@ import IndexSectionFaqs3 from '../components/faqs/IndexSectionFaqs3';
 import IndexSectionFooters9 from '../components/footers/IndexSectionFooters9';
 
 const meta = {
-  title:
-    'Bienvenido\u0020a\u0020Novo\u0020Vida\u003A\u0020Empieza\u0020tu\u0020Nueva\u0020Vida',
+  title: 'Bienvenido a Novo Vida: Empieza tu Nueva Vida',
   meta: [
     {
       name: 'keywords',
-      content:
-        'gimnasio,\u0020fitness,\u0020bienestar,\u0020entrenamientos\u0020personalizados,\u0020equipos\u0020de\u0020gimnasio',
+      content: 'gimnasio, fitness, bienestar, entrenamientos personalizados, equipos de gimnasio',
     },
     {
       name: 'description',
-      content:
-        'Descubre\u0020Novo\u0020Vida,\u0020el\u0020gimnasio\u0020l\u00EDder\u0020en\u0020fitness\u0020y\u0020bienestar.\u0020Ofrecemos\u0020equipos\u0020de\u0020\u00FAltima\u0020generaci\u00F3n,\u0020clases\u0020grupales\u0020y\u0020entrenamientos\u0020personalizados\u0020para\u0020ayudarte\u0020a\u0020alcanzar\u0020tus\u0020objetivos\u0020de\u0020salud.',
+      content: 'Descubre Novo Vida, el gimnasio líder en fitness y bienestar. Ofrecemos equipos de última generación, clases grupales y entrenamientos personalizados para ayudarte a alcanzar tus objetivos de salud.',
     },
   ],
   link: [],
@@ -31,17 +28,15 @@ const meta = {
 export default function Index() {
   useEffect(() => {
     // Custom CSS classes for elements from the index.html
-    let classes = document.body.classList;
-    document.body.classList.remove(...classes);
-    document.body.classList.add(...''.split(' '));
-  });
+    document.body.className = ''; // Clear all classes from body
+  }, []);
 
   return (
     <React.Fragment>
       <HelmetProvider>
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
-      <IndexSectionNavigations4 />x
+      <IndexSectionNavigations4 />
       <IndexSectionCta5 />
       <IndexSectionTestimonials7 />
       <IndexSectionCta6 />
@@ -51,4 +46,3 @@ export default function Index() {
     </React.Fragment>
   );
 }
-
