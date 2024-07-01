@@ -41,7 +41,7 @@ export default function Index() {
       <HelmetProvider>
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
-      <IndexSectionNavigations4 />
+      <IndexSectionNavigations4 />x
       <IndexSectionCta5 />
       <IndexSectionTestimonials7 />
       <IndexSectionCta6 />
