@@ -85,7 +85,8 @@ module.exports = {
                             "600": "#2563eb",
                             "700": "#1d4ed8",
                             "800": "#1e40af",
-                            "900": "#1e3a8a"
+                            "900": "#1e3a8a",
+                            "NV":"#3876F2"
                         },
                         "indigo": {
                             "50": "#eef2ff",
@@ -121,7 +122,8 @@ module.exports = {
                             "600": "#db2777",
                             "700": "#be185d",
                             "800": "#9d174d",
-                            "900": "#831843"
+                            "900": "#831843",
+                            "NV":"#F23891",
                         }
                     },
                     "spacing": {
@@ -879,7 +881,8 @@ module.exports = {
                         "colors": "background-color, border-color, color, fill, stroke",
                         "opacity": "opacity",
                         "shadow": "box-shadow",
-                        "transform": "transform"
+                        'max-height': 'max-height',
+                        'transform': 'transform'
                     },
                     "transitionTimingFunction": {
                         "DEFAULT": "cubic-bezier(0.4, 0, 0.2, 1)",
