@@ -1,9 +1,9 @@
 import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import MembershipsSectionNavigations1 from '../components/navigations/MembershipsSectionNavigations1';
+import IndexSectionNavigations4 from '../components/navigations/IndexSectionNavigations4';
 import MembershipsSectionCta4 from '../components/cta/MembershipsSectionCta4';
 import MembershipsSectionPricing2 from '../components/pricing/MembershipsSectionPricing2';
-import MembershipsSectionFooters3 from '../components/footers/MembershipsSectionFooters3';
+import IndexSectionFooters9 from '../components/footers/IndexSectionFooters9';
 
 const meta = {
   title:
@@ -31,10 +31,10 @@ export default function Memberships() {
       <HelmetProvider>
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
-      <MembershipsSectionNavigations1 />
+      <IndexSectionNavigations4 />
       <MembershipsSectionCta4 />
       <MembershipsSectionPricing2 />
-      <MembershipsSectionFooters3 />
+      <IndexSectionFooters9 />
     </React.Fragment>
   );
 }
