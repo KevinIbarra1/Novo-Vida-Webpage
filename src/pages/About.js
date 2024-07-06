@@ -1,11 +1,11 @@
 import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import AboutSectionNavigations1 from '../components/navigations/AboutSectionNavigations1';
+import IndexSectionNavigations4 from '../components/navigations/IndexSectionNavigations4';
 import AboutSectionCta10 from '../components/cta/AboutSectionCta10';
 import AboutSectionTeams9 from '../components/teams/AboutSectionTeams9';
 import AboutSectionCta12 from '../components/cta/AboutSectionCta12';
 import AboutSectionContact11 from '../components/contact/AboutSectionContact11';
-import AboutSectionFooters5 from '../components/footers/AboutSectionFooters5';
+import IndexSectionFooters9 from '../components/footers/IndexSectionFooters9';
 
 const meta = {
   title:
@@ -33,12 +33,12 @@ export default function About() {
       <HelmetProvider>
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
-      <AboutSectionNavigations1 />
+      <IndexSectionNavigations4 />
       <AboutSectionCta10 />
       <AboutSectionTeams9 />
       <AboutSectionCta12 />
       <AboutSectionContact11 />
-      <AboutSectionFooters5 />
+      <IndexSectionFooters9 />
     </React.Fragment>
   );
 }

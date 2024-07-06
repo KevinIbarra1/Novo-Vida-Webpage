@@ -8,8 +8,8 @@ export default function AboutSectionTeams9() {
   <div className="container px-4 mx-auto">
     <h2 className="mb-5 text-6xl md:text-8xl xl:text-10xl text-center font-bold font-heading tracking-px-n leading-none">Equipo detrás de Novo Vida</h2>
     <p className="mb-20 text-lg text-gray-600 text-center font-medium md:max-w-xl mx-auto">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-    <div className="flex flex-wrap max-w-7xl mx-auto -m-3">
-      <div className="w-full md:w-1/2 lg:w-1/4 p-3">
+    <div className="flex flex-wrap max-w-7xl mx-auto -m-3 justify-center items-center min-h-screen">
+    <div className="w-full md:w-1/2 lg:w-1/4 p-3">
         <div className="relative max-w-max mx-auto h-full overflow-hidden rounded-3xl">
           <img className="h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000" src="flaro-assets/images/team/team.png" alt />
           <div className="absolute bottom-0 left-0 w-full p-2">
@@ -65,6 +65,28 @@ export default function AboutSectionTeams9() {
             <div className="w-full py-4 px-5 rounded-lg bg-opacity-10 bg-white" style={{backdropFilter: 'blur(3px)'}}>
               <h3 className="mb-1 text-lg text-white font-bold leading-snug">Devon Lane</h3>
               <p className="text-gray-400 font-medium">Marketing Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full md:w-1/2 lg:w-1/4 p-3">
+        <div className="relative max-w-max mx-auto h-full overflow-hidden rounded-3xl">
+          <img className="h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000" src="flaro-assets/images/team/team4.png" alt />
+          <div className="absolute bottom-0 left-0 w-full p-2">
+            <div className="w-full py-4 px-5 rounded-lg bg-opacity-10 bg-opacity-10" style={{backdropFilter: 'blur(3px)'}}>
+              <h3 className="mb-1 text-lg text-white font-bold leading-snug">Jane Cooper</h3>
+              <p className="text-gray-400 font-medium">Business Representative</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full md:w-1/2 lg:w-1/4 p-3">
+        <div className="relative max-w-max mx-auto h-full overflow-hidden rounded-3xl">
+          <img className="h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000" src="flaro-assets/images/team/team4.png" alt />
+          <div className="absolute bottom-0 left-0 w-full p-2">
+            <div className="w-full py-4 px-5 rounded-lg bg-opacity-10 bg-opacity-10" style={{backdropFilter: 'blur(3px)'}}>
+              <h3 className="mb-1 text-lg text-white font-bold leading-snug">Jane Cooper</h3>
+              <p className="text-gray-400 font-medium">Business Representative</p>
             </div>
           </div>
         </div>
