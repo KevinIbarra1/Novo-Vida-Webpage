@@ -10,8 +10,8 @@ export default function IndexSectionNavigations4() {
   return (
     <React.Fragment>
       <section className="overflow-hidden">
-        <div className="flex items-center justify-between px-7 xl:px-40 py-5 lg:py-7 bg-white navColor">
-          <div className="w-auto">
+      <div className="flex items-center justify-between px-7 xl:px-40 py-5 lg:py-7 bg-white navColor">
+      <div className="w-auto">
             <div className="flex flex-wrap items-center">
               <div className="w-auto mr-14 flex items-center">
                 <a href="/" className="flex items-center">
@@ -24,7 +24,7 @@ export default function IndexSectionNavigations4() {
           <div className="w-auto">
             <div className="flex flex-wrap items-center">
               <div className="w-auto hidden lg:block">
-                <ul className="flex items-center mr-16">
+                <ul className="flex items-center mr-17">
                   <li className="mr-9 font-medium hover:text-gray-700"><a href="/" className="navTextOption">INICIO</a></li>
                   <li className="mr-9 font-medium hover:text-gray-700"><a href="/Services" className="navTextOption">SERVICIOS</a></li>
                   <li className="mr-9 font-medium hover:text-gray-700"><a href="/Memberships" className="navTextOption">MEMBRESIAS</a></li>
@@ -53,11 +53,11 @@ export default function IndexSectionNavigations4() {
           </div>
           <nav className="flex flex-col items-center justify-center h-full">
             <ul className="text-center">
-              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="#">HOME</a></li>
-              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="#">SERVICES</a></li>
-              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="#">MEMBERSHIPS</a></li>
-              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="#">BLOG</a></li>
-              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="#">ABOUT</a></li>
+              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="/">INICIO</a></li>
+              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="/Services">SERVICIOS</a></li>
+              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="/Memberships">MEMBRESIAS</a></li>
+              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="/About">SOBRE NOSOTROS</a></li>
+              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="/BLOG">BLOG</a></li>
             </ul>
           </nav>
         </div>

@@ -36,9 +36,7 @@ export default function About() {
       <IndexSectionNavigations4 />
       <AboutSectionCta10 />
       <AboutSectionTeams9 />
-      <AboutSectionCta12 />
-      <AboutSectionContact11 />
-      <IndexSectionFooters9 />
+      <IndexSectionFooters9/>
     </React.Fragment>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import TestimonialsSectionNavigations1 from '../components/navigations/TestimonialsSectionNavigations1';
+import IndexSectionNavigations4 from '../components/navigations/IndexSectionNavigations4';
 import TestimonialsSectionTestimonials3 from '../components/testimonials/TestimonialsSectionTestimonials3';
 import TestimonialsSectionTestimonials2 from '../components/testimonials/TestimonialsSectionTestimonials2';
 import TestimonialsSectionFooters4 from '../components/footers/TestimonialsSectionFooters4';
@@ -31,7 +31,7 @@ export default function Testimonials() {
       <HelmetProvider>
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
-      <TestimonialsSectionNavigations1 />
+      <IndexSectionNavigations4 />
       <TestimonialsSectionTestimonials3 />
       <TestimonialsSectionTestimonials2 />
       <TestimonialsSectionFooters4 />
