@@ -1,8 +1,9 @@
 import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import BlogSectionNavigations3 from '../components/navigations/BlogSectionNavigations3';
+import IndexSectionNavigations4 from '../components/navigations/IndexSectionNavigations4';
 import BlogSectionBlog2 from '../components/blog/BlogSectionBlog2';
 import BlogSectionFooters4 from '../components/footers/BlogSectionFooters4';
+import IndexSectionFooters9 from '../components/footers/IndexSectionFooters9';
 
 const meta = {
   title:
@@ -30,9 +31,9 @@ export default function Blog() {
       <HelmetProvider>
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
-      <BlogSectionNavigations3 />
+      <IndexSectionNavigations4 />
       <BlogSectionBlog2 />
-      <BlogSectionFooters4 />
+      <IndexSectionFooters9 />
     </React.Fragment>
   );
 }

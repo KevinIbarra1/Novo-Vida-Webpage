@@ -12,6 +12,7 @@ import MembershipsPage from './pages/Memberships.js';
 import TestimonialsPage from './pages/Testimonials.js';
 import BlogPage from './pages/Blog.js';
 import ProductsPage from './pages/Products.js';
+import BajarDePeso from './pages/bajarDePeso.js';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
       <Route path="/blog" element={<BlogPage />} />
          
       <Route path="/products" element={<ProductsPage />} />
+
+      <Route path="/bajarDePeso" element={<BajarDePeso/>} />
+
     </Routes>
   );
 }
