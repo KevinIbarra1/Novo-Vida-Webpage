@@ -958,9 +958,12 @@ module.exports = {
         "extend": []
     },
     "content": [
-        ".\/src\/pug\/*.pug",
-        ".\/src\/html\/*.html",
-        ".\/src\/pages\/*.js",
-        ".\/src\/components\/*\/*.js"
+        './src/pug/*.pug',
+        './src/html/*.html',
+        './src/pages/*.js',
+        './src/pages/articles/*.js',
+        './src/components/*/*.js',
+        './src/**/*.{js,jsx,ts,tsx}', // Include all relevant file types
+
     ]
 };
