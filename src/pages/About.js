@@ -6,6 +6,8 @@ import AboutSectionTeams9 from '../components/teams/AboutSectionTeams9';
 import AboutSectionCta12 from '../components/cta/AboutSectionCta12';
 import AboutSectionContact11 from '../components/contact/AboutSectionContact11';
 import IndexSectionFooters9 from '../components/footers/IndexSectionFooters9';
+import ContactusSectionContact6 from '../components/contact/ContactusSectionContact6';
+import IndexSectionCta6 from '../components/cta/IndexSectionCta6';
 
 const meta = {
   title:
@@ -36,6 +38,9 @@ export default function About() {
       <IndexSectionNavigations4 />
       <AboutSectionCta10 />
       <AboutSectionTeams9 />
+      <IndexSectionCta6/>
+      <ContactusSectionContact6 />
+
       <IndexSectionFooters9/>
     </React.Fragment>
   );

@@ -4,11 +4,11 @@ export default function IndexSectionTestimonials7() {
   return (
     <React.Fragment>
       <section className="py-16 bg-white overflow-hidden">
-        <div className="container px-4 mx-auto flex flex-col md:flex-row items-center">
+        <div className="container px-4 mx-auto flex flex-col md:flex-row items-center justify-center">
           <div className="md:w-1/3 flex justify-center">
             <img className="rounded-xl" src="excercicsing.jpg" alt="Fitness Importance" />
           </div>
-          <div className="md:w-1/2 md:pl-12 mt-8 md:mt-0">
+          <div className="md:w-1/2 md:pl-12 mt-8 md:mt-0 text-center md:text-left">
             <h2 className="mb-4 text-3xl md:text-4xl font-bold">
               WHY <span className="text-blue-500">FITNESS</span> IS IMPORTANT?
             </h2>

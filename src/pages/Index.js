@@ -4,9 +4,9 @@ import IndexSectionNavigations4 from '../components/navigations/IndexSectionNavi
 import IndexSectionCta5 from '../components/cta/IndexSectionCta5';
 import IndexSectionTestimonials7 from '../components/testimonials/IndexSectionTestimonials7';
 import IndexSectionCta6 from '../components/cta/IndexSectionCta6';
-import IndexSectionTestimonials8 from '../components/testimonials/IndexSectionTestimonials8';
 import IndexSectionFaqs3 from '../components/faqs/IndexSectionFaqs3';
 import IndexSectionFooters9 from '../components/footers/IndexSectionFooters9';
+import TestimonialsSectionTestimonials3 from '../components/testimonials/TestimonialsSectionTestimonials3';
 
 const meta = {
   title: 'Bienvenido a Novo Vida: Empieza tu Nueva Vida',
@@ -40,7 +40,7 @@ export default function Index() {
       <IndexSectionCta5 />
       <IndexSectionTestimonials7 />
       <IndexSectionCta6 />
-      <IndexSectionTestimonials8 />
+      <TestimonialsSectionTestimonials3 />
       <IndexSectionFaqs3 />
       <IndexSectionFooters9 />
     </React.Fragment>

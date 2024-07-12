@@ -13,7 +13,7 @@ export default function IndexSectionFaqs3() {
 
   const faqData = [
     {
-      question: "6. ¿Ofrecen clases de prueba o membresías de prueba?",
+      question: "1. ¿Ofrecen clases de prueba o membresías de prueba?",
       answer:
         "Sí, ofrecemos una clase de prueba gratuita para nuevos miembros y membresías de prueba de una semana para que puedas experimentar nuestras instalaciones y servicios.",
     },
@@ -36,7 +36,7 @@ export default function IndexSectionFaqs3() {
 
   return (
     <React.Fragment>
-      <section className="relative pt-24 pb-28 overflow-hidden">
+      <section className="relative pt-22 pb-26 overflow-hidden">
         <img
           className="absolute bottom-0 left-1/2 transform -translate-x-1/2"
           src="flaro-assets/images/faqs/gradient.svg"
@@ -112,7 +112,7 @@ export default function IndexSectionFaqs3() {
               <p>TIENES PREGUNTAS ADICIONALES?</p>
               <a
                 className="font-semibold text-indigo-600 hover:text-indigo-700"
-                href="#"
+                href="/About"
               >
                 Contáctanos
               </a>
