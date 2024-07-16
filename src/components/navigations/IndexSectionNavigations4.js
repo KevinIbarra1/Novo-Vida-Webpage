@@ -10,8 +10,8 @@ export default function IndexSectionNavigations4() {
   return (
     <React.Fragment>
       <section className="overflow-hidden">
-      <div className="flex items-center justify-between px-7 xl:px-40 py-5 lg:py-7 bg-white navColor">
-      <div className="w-auto">
+        <div className="flex items-center justify-between px-7 xl:px-40 py-5 lg:py-7 bg-white navColor">
+          <div className="w-auto">
             <div className="flex flex-wrap items-center">
               <div className="w-auto mr-14 flex items-center">
                 <a href="/" className="flex items-center">
@@ -24,12 +24,26 @@ export default function IndexSectionNavigations4() {
           <div className="w-auto">
             <div className="flex flex-wrap items-center">
               <div className="w-auto hidden lg:block">
-                <ul className="flex items-center mr-17">
-                  <li className="mr-9 font-medium hover:text-gray-700"><a href="/" className="navTextOption">INICIO</a></li>
-                  <li className="mr-9 font-medium hover:text-gray-700"><a href="/Services" className="navTextOption">SERVICIOS</a></li>
-                  <li className="mr-9 font-medium hover:text-gray-700"><a href="/Memberships" className="navTextOption">MEMBRESIAS</a></li>
-                  <li className="mr-9 font-medium hover:text-gray-700"><a href="/About" className="navTextOption">SOBRE NOSOTROS</a></li>
-                  <li className="font-medium hover:text-gray-700"><a href="/BLOG" className="navTextOption">BLOG</a></li>
+                <ul className="flex items-center">
+                  <li className="flex items-center">
+                    <a href="/" className="navTextOption px-4 font-medium hover:text-gray-700">INICIO</a>
+                    <span className="text-black">|</span>
+                  </li>
+                  <li className="flex items-center">
+                    <a href="/Services" className="navTextOption px-4 font-medium hover:text-gray-700">SERVICIOS</a>
+                    <span className="text-black">|</span>
+                  </li>
+                  <li className="flex items-center">
+                    <a href="/Memberships" className="navTextOption px-4 font-medium hover:text-gray-700">MEMBRESIAS</a>
+                    <span className="text-black">|</span>
+                  </li>
+                  <li className="flex items-center">
+                    <a href="/About" className="navTextOption px-4 font-medium hover:text-gray-700">SOBRE NOSOTROS</a>
+                    <span className="text-black">|</span>
+                  </li>
+                  <li className="flex items-center">
+                    <a href="/BLOG" className="navTextOption px-4 font-medium hover:text-gray-700">BLOG</a>
+                  </li>
                 </ul>
               </div>
               <div className="w-auto lg:hidden">
@@ -53,11 +67,21 @@ export default function IndexSectionNavigations4() {
           </div>
           <nav className="flex flex-col items-center justify-center h-full">
             <ul className="text-center">
-              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="/">INICIO</a></li>
-              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="/Services">SERVICIOS</a></li>
-              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="/Memberships">MEMBRESIAS</a></li>
-              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="/About">SOBRE NOSOTROS</a></li>
-              <li className="mb-12"><a className="text-white text-lg font-medium hover:text-gray-400" href="/BLOG">BLOG</a></li>
+              <li className="mb-12">
+                <a className="text-white text-lg font-medium hover:text-gray-400" href="/">INICIO</a>
+              </li>
+              <li className="mb-12">
+                <a className="text-white text-lg font-medium hover:text-gray-400" href="/Services">SERVICIOS</a>
+              </li>
+              <li className="mb-12">
+                <a className="text-white text-lg font-medium hover:text-gray-400" href="/Memberships">MEMBRESIAS</a>
+              </li>
+              <li className="mb-12">
+                <a className="text-white text-lg font-medium hover:text-gray-400" href="/About">SOBRE NOSOTROS</a>
+              </li>
+              <li className="mb-12">
+                <a className="text-white text-lg font-medium hover:text-gray-400" href="/BLOG">BLOG</a>
+              </li>
             </ul>
           </nav>
         </div>

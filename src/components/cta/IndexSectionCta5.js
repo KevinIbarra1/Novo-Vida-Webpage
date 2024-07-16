@@ -8,10 +8,10 @@ export default function IndexSectionCta5() {
         <div className="relative py-40 container px-4 mx-auto text-center text-white">
           <div className="max-w-3xl mx-auto">
             <h2 className="mb-4 text-4xl md:text-6xl font-bold">
-              LET’S <span className="text-blue-NV">GRIND</span> YOUR <span className="text-pink-NV">BODY</span>
+              TE <span className="text-blue-NV">AYUDAMOS</span> A <span className="text-pink-NV">CONSTRUIR</span>
             </h2>
             <h2 className="mb-11 text-4xl md:text-6xl font-bold">
-              GET FIT WITH <span className="text-pink-NV">NOVO VIDA</span>
+              UNA  <span className="text-blue-NV">NUEVA</span> <span className="text-pink-NV">VIDA</span>
             </h2>
             <div className="inline-block">
               <button className="py-4 px-6 w-full md:w-auto text-white font-semibold border border-transparent rounded-xl shadow-4xl focus:ring focus:ring-blue-300 bg-blue-500 hover:bg-blue-600 transition ease-in-out duration-200" type="button">

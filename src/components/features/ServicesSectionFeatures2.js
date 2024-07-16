@@ -12,12 +12,12 @@ export default function ServicesSectionFeatures2() {
                   NOVO <span className="text-blue-500">VIDA</span> GYM CLUB
                 </h2>
                 <p className="text-lg text-gray-900 font-medium leading-relaxed mt-4">
-                  Being physically active can improve your brain health, help
-                  manage weight, reduce the risk of disease, strengthen bones
-                  and muscles, and improve your ability to do everyday
-                  activities. Adults who sit less and do any amount of
-                  moderate-to-vigorous physical activity gain some health
-                  benefits.
+                  NovoVida es un gimnasio innovador enfocado en transformar
+                  vidas a través del fitness y la salud, especialmente para
+                  aquellos con poco conocimiento en el gimnasio. En un ambiente
+                  acogedor y motivador, proporcionamos clases grupales,
+                  entrenamientos individuales y asesoría nutricional para
+                  ayudarte a alcanzar tus metas de bienestar.
                 </p>
               </div>
               <div className="w-full md:w-1/2 p-8">
@@ -33,16 +33,17 @@ export default function ServicesSectionFeatures2() {
 
         <section
           className="relative bg-no-repeat bg-center bg-cover overflow-hidden"
-          style={{ backgroundImage: 'url("labarra.jpg")', height: '35vh' }}
+          style={{ backgroundImage: 'url("labarra.jpg")', height: "35vh" }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-60 backdrop-blur-sm"></div>
           <div className="relative py-20 container px-4 mx-auto text-center text-white flex items-center justify-center h-full">
             <div className="max-w-3xl mx-auto">
               <h2 className="mb-4 text-2xl md:text-4xl font-bold">
-                Your <span className="text-blue-500">body</span> can do it
+                Tu cuerpo puede<span className="text-blue-500"> hacerlo</span>
               </h2>
               <h2 className="text-2xl md:text-4xl font-bold">
-                It's time to convince your <span className="text-pink-NV">mind</span>
+                Es tiempo de
+                <span className="text-pink-NV"> convencer </span>a tu mente
               </h2>
             </div>
           </div>
@@ -68,7 +69,7 @@ export default function ServicesSectionFeatures2() {
                         }}
                       >
                         <h3 className="text-lg text-white text-center font-semibold">
-                          Independent Training
+                          ENTRENAMIENTO INDEPENDIENTE
                         </h3>
                       </div>
                     </div>
@@ -92,7 +93,7 @@ export default function ServicesSectionFeatures2() {
                         }}
                       >
                         <h3 className="text-lg text-white text-center font-semibold">
-                          Weight Loss Program
+                          PROGRAMA DE PERDIDA DE PESO
                         </h3>
                       </div>
                     </div>
@@ -116,7 +117,7 @@ export default function ServicesSectionFeatures2() {
                         }}
                       >
                         <h3 className="text-lg text-white text-center font-semibold">
-                          Personal Training
+                          ENTRENAMIENTO PERSONAL
                         </h3>
                       </div>
                     </div>
