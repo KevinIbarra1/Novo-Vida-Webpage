@@ -24,7 +24,6 @@ export default function ContactusSectionContact6() {
                                 <p className="mb-4 font-bold uppercase tracking-px text-lg blueText">Email</p>
                                 <ul className="mb-12">
                                     <li className="text-lg text-gray-600 font-medium leading-normal">novovida@gmail.com</li>
-                                    <li className="text-lg text-gray-600 font-medium leading-normal">support@gmail.com</li>
                                 </ul>
                                 <p className="mb-4 font-bold uppercase tracking-px text-lg blueText">Phone</p>
                                 <ul className="mb-14">

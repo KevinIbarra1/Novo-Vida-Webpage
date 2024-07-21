@@ -13,11 +13,11 @@ export default function IndexSectionCta5() {
             <h2 className="mb-11 text-4xl md:text-6xl font-bold">
               UNA  <span className="text-blue-NV">NUEVA</span> <span className="text-pink-NV">VIDA</span>
             </h2>
-            <div className="inline-block">
+            {/* <div className="inline-block">
               <button className="py-4 px-6 w-full md:w-auto text-white font-semibold border border-transparent rounded-xl shadow-4xl focus:ring focus:ring-blue-300 bg-blue-500 hover:bg-blue-600 transition ease-in-out duration-200" type="button">
                 Become a member
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

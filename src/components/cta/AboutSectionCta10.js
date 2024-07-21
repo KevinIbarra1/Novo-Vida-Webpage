@@ -4,7 +4,7 @@ export default function AboutSectionCta10() {
     return (
         <React.Fragment>
             <>
-                <section className style={{backgroundImage: 'url("https://static.shuffle.dev/uploads/files/6e/6e0f5129d29c66a42389554d32247ff33a40eeff/istockphoto-1277242852-612x612.jpg")'}}>
+                <section className style={{backgroundImage: 'url("pexels-ivan-samkov-4164843.jpg")'}}>
   <div className="bg-black bg-opacity-60 py-28" style={{backdropFilter: 'blur(12px)'}}>
     <div className="container px-4 mx-auto">
       <div className="text-center max-w-3xl mx-auto">
