@@ -676,6 +676,11 @@ video {
   margin-right: auto;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -826,10 +831,6 @@ video {
 
 .max-h-screen {
   max-height: 100vh;
-}
-
-.min-h-screen {
-  min-height: 100vh;
 }
 
 .w-3\/4 {
@@ -1198,6 +1199,11 @@ video {
 .px-9 {
   padding-left: 2.25rem;
   padding-right: 2.25rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .py-11 {
@@ -1699,6 +1705,11 @@ video {
     margin-right: 0.5rem;
   }
 
+  .sm\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   .sm\:inline {
     display: inline;
   }
@@ -1726,6 +1737,14 @@ video {
   .sm\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
   }
 }
 
@@ -1817,6 +1836,10 @@ video {
   .md\:text-8xl {
     font-size: 3.25rem;
   }
+
+  .md\:text-xl {
+    font-size: 1.313rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1855,6 +1878,14 @@ video {
   .lg\:py-7 {
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+  }
+
+  .lg\:text-\[48px\] {
+    font-size: 48px;
   }
 }
 
