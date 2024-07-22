@@ -1,0 +1,33 @@
+.fontText,
+.navFont,
+.navTextOption {
+  font-family: Poppins,sans-serif;
+  font-weight: 600
+}
+.fontText {
+  font-size: 72px
+}
+.navFont {
+  font-size: 20px;
+  text-align: center
+}
+.navTextOption {
+  font-size: 25px;
+  color: #000
+}
+.navbarColor {
+  color: #0cf
+}
+.callToActionColor {
+  background-color: #3572ef
+}
+.navColor {
+  background-color: #3876f2
+}
+.blueText {
+  color: #3876f2
+}
+.5F94D9 {
+  background-color: #5f94d9,
+}
+
