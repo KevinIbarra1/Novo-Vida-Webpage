@@ -19,7 +19,7 @@ export default function AboutSectionTeams9() {
               <div className="w-full md:w-1/2 lg:w-1/4 p-3">
                 <div className="relative max-w-max mx-auto h-full overflow-hidden rounded-3xl">
                   <img
-                    className="h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
+                    className="w-full h-auto object-cover object-center transform hover:scale-105 transition ease-in-out duration-1000"
                     src="abnerImage.jpg"
                     alt="Imagen del entrenador y fundador Abner"
                   />
@@ -67,10 +67,11 @@ export default function AboutSectionTeams9() {
                   </div>
                 </div>
               </div>
+
               <div className="w-full md:w-1/2 lg:w-1/4 p-3">
                 <div className="relative max-w-max mx-auto h-full overflow-hidden rounded-3xl">
                   <img
-                    className="h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
+                    className="w-full h-auto object-cover object-center transform hover:scale-105 transition ease-in-out duration-1000"
                     src="julioImage.jpg"
                     alt="Imagen del entrendador Julio Figueroa"
                   />
@@ -91,7 +92,7 @@ export default function AboutSectionTeams9() {
               <div className="w-full md:w-1/2 lg:w-1/4 p-3">
                 <div className="relative max-w-max mx-auto h-full overflow-hidden rounded-3xl">
                   <img
-                    className="h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
+                    className="w-full h-auto object-cover object-center transform hover:scale-105 transition ease-in-out duration-1000"
                     src="IMG_0228.jpg"
                     alt=""
                   />
@@ -142,7 +143,7 @@ export default function AboutSectionTeams9() {
               <div className="w-full md:w-1/2 lg:w-1/4 p-3">
                 <div className="relative max-w-max mx-auto h-full overflow-hidden rounded-3xl">
                   <img
-                    className="h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
+                    className="w-full h-auto object-cover object-center transform hover:scale-105 transition ease-in-out duration-1000"
                     src="IMG_0399.jpg"
                     alt="Imagen del entrenador Jonathan Ramos"
                   />
