@@ -1883,10 +1883,6 @@ video {
   .lg\:text-2xl {
     font-size: 1.5rem;
   }
-
-  .lg\:text-\[48px\] {
-    font-size: 48px;
-  }
 }
 
 @media (min-width: 1280px) {
