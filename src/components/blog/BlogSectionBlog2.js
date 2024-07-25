@@ -5,7 +5,7 @@ export default function BlogSectionBlog2() {
         <React.Fragment>
             <section className="pt-24 pb-36 bg-white overflow-hidden">
                 <div className="container px-4 mx-auto">
-                    <h2 className="mb-4 text-6xl md:text-7xl text-center font-bold font-heading tracking-px-n leading-tight">Latest from Blog</h2>
+                    <h2 className="mb-4 text-6xl md:text-7xl text-center font-bold font-heading tracking-px-n leading-tight">Lo más nuevo del Blog</h2>
                     <p className="mb-24 font-medium text-gray-600 text-center leading-relaxed md:max-w-lg mx-auto">Lorem ipsum dolor sit amet, to the consectr adipiscing elit. Volutpat tempor to the condimentum vitae vel purus.</p>
                     <div className="flex flex-wrap -m-8">
                         <div className="w-full md:w-1/2 p-8">

@@ -8,7 +8,7 @@ export default function TestimonialsSectionTestimonials3() {
                     <img className="absolute top-0 left-0" src="flaro-assets/images/testimonials/gradient.svg" alt="" />
                     <img className="absolute bottom-0 right-0" src="flaro-assets/images/testimonials/gradient2.svg" alt="" />
                     <div className="relative z-10 container px-4 mx-auto">
-                        <h2 className="mb-16 text-6xl md:text-7xl font-bold font-heading text-center tracking-px-n leading-tight">No solo confíes en nuestra palabra</h2>
+                        <h2 className="mb-16 text-6xl md:text-7xl font-bold font-heading text-center tracking-px-n leading-tight">Que piensan nuestros clientes</h2>
                         <div className="flex flex-wrap -m-3">
                             <div className="w-full md:w-1/2 lg:w-1/3 p-3">
                                 <div className="p-6 h-full bg-white bg-opacity-60 border rounded-4xl">

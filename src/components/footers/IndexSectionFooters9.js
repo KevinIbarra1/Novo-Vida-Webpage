@@ -70,7 +70,7 @@ export default function IndexSectionFooters9() {
                     />
                   </a>
                 </div>
-                <div className="w-auto p-1.5">
+                {/* <div className="w-auto p-1.5">
                   <a href="#">
                     <img
                       src="tiktok.svg"
@@ -78,7 +78,7 @@ export default function IndexSectionFooters9() {
                       className="w-6 h-6 text-pink-600"
                     />
                   </a>
-                </div>
+                </div> */}
                 <div className="w-auto p-1.5">
                   <a href="https://www.facebook.com/profile.php?id=100087636903551">
                     <img

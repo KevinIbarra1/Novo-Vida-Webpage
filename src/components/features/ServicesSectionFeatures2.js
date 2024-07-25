@@ -4,11 +4,11 @@ export default function ServicesSectionFeatures2() {
   return (
     <React.Fragment>
       <>
-        <section className="pt-28  bg-white overflow-hidden">
+        <section className="pt-28 bg-white overflow-hidden">
           <div className="container px-4 mx-auto">
             <div className="mb-20 flex flex-wrap -m-8 items-center">
               <div className="w-full md:w-1/2 p-8">
-                <h2 className="text-6xl md:text-7xl font-bold font-heading tracking-px-n leading-tight">
+                <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold font-heading tracking-px-n leading-tight">
                   NOVO <span className="text-blue-500">VIDA</span> GYM CLUB
                 </h2>
                 <p className="text-lg text-gray-900 font-medium leading-relaxed mt-4">
@@ -38,10 +38,10 @@ export default function ServicesSectionFeatures2() {
           <div className="absolute inset-0 bg-black bg-opacity-60 backdrop-blur-sm"></div>
           <div className="relative py-20 container px-4 mx-auto text-center text-white flex items-center justify-center h-full">
             <div className="max-w-3xl mx-auto">
-              <h2 className="mb-4 text-2xl md:text-4xl font-bold">
+              <h2 className="mb-4 text-xl md:text-2xl lg:text-4xl font-bold">
                 Tu cuerpo puede<span className="text-blue-500"> hacerlo</span>
               </h2>
-              <h2 className="text-2xl md:text-4xl font-bold">
+              <h2 className="text-xl md:text-2xl lg:text-4xl font-bold">
                 Es tiempo de
                 <span className="text-pink-NV"> convencer </span>a tu mente
               </h2>
@@ -53,7 +53,7 @@ export default function ServicesSectionFeatures2() {
           <div className="container px-4 mx-auto">
             <div className="flex flex-wrap -m-3">
               <div className="w-full md:w-1/3 p-3">
-                <a className="flex justify-center md:block h-full" href="#">
+                <div className="flex justify-center md:block h-full">
                   <div className="relative h-full rounded-3xl overflow-hidden">
                     <img
                       className="h-full md:w-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
@@ -68,16 +68,16 @@ export default function ServicesSectionFeatures2() {
                           backdropFilter: "blur(5px)",
                         }}
                       >
-                        <h3 className="text-lg text-white text-center font-semibold">
+                        <h3 className="text-base md:text-lg lg:text-xl text-white text-center font-semibold">
                           ENTRENAMIENTO INDEPENDIENTE
                         </h3>
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
               </div>
               <div className="w-full md:w-1/3 p-3">
-                <a className="flex justify-center md:block h-full" href="#">
+                <div className="flex justify-center md:block h-full">
                   <div className="relative h-full rounded-3xl overflow-hidden">
                     <img
                       className="h-full md:w-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
@@ -92,16 +92,16 @@ export default function ServicesSectionFeatures2() {
                           backdropFilter: "blur(5px)",
                         }}
                       >
-                        <h3 className="text-lg text-white text-center font-semibold">
+                        <h3 className="text-base md:text-lg lg:text-xl text-white text-center font-semibold">
                           PROGRAMA DE PERDIDA DE PESO
                         </h3>
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
               </div>
               <div className="w-full md:w-1/3 p-3">
-                <a className="flex justify-center md:block h-full" href="#">
+                <div className="flex justify-center md:block h-full">
                   <div className="relative h-full rounded-3xl overflow-hidden">
                     <img
                       className="h-full md:w-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
@@ -116,13 +116,13 @@ export default function ServicesSectionFeatures2() {
                           backdropFilter: "blur(5px)",
                         }}
                       >
-                        <h3 className="text-lg text-white text-center font-semibold">
+                        <h3 className="text-base md:text-lg lg:text-xl text-white text-center font-semibold">
                           ENTRENAMIENTO PERSONAL
                         </h3>
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
               </div>
             </div>
           </div>

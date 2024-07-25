@@ -1124,6 +1124,10 @@ video {
   object-fit: cover;
 }
 
+.object-center {
+  object-position: center;
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -1324,10 +1328,6 @@ video {
   font-size: 6.875rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-}
-
 .text-3xl {
   font-size: 1.75rem;
 }
@@ -1338,6 +1338,10 @@ video {
 
 .text-6xl {
   font-size: 2.625rem;
+}
+
+.text-base {
+  font-size: 1rem;
 }
 
 .text-lg {
@@ -1761,6 +1765,10 @@ video {
     display: inline-block;
   }
 
+  .md\:h-8 {
+    height: 2rem;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -1821,6 +1829,10 @@ video {
     text-align: left;
   }
 
+  .md\:text-2xl {
+    font-size: 1.5rem;
+  }
+
   .md\:text-4xl {
     font-size: 2rem;
   }
@@ -1835,6 +1847,10 @@ video {
 
   .md\:text-8xl {
     font-size: 3.25rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
   }
 
   .md\:text-xl {
@@ -1882,6 +1898,18 @@ video {
 
   .lg\:text-2xl {
     font-size: 1.5rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2rem;
+  }
+
+  .lg\:text-7xl {
+    font-size: 3rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.313rem;
   }
 }
 

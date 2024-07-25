@@ -7,10 +7,10 @@ export default function IndexSectionCta5() {
         <div className="absolute inset-0 bg-black bg-opacity-40" style={{ backdropFilter: 'blur(9px)' }}></div>
         <div className="relative py-40 container px-4 mx-auto text-center text-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="mb-4 text-4xl md:text-6xl font-bold">
+            <h2 className="mb-4 text-3xl md:text-6xl font-bold">
               TE <span className="text-blue-NV">AYUDAMOS</span> A <span className="text-pink-NV">CONSTRUIR</span>
             </h2>
-            <h2 className="mb-11 text-4xl md:text-6xl font-bold">
+            <h2 className="mb-4 text-3xl md:text-6xl font-bold">
               UNA  <span className="text-blue-NV">NUEVA</span> <span className="text-pink-NV">VIDA</span>
             </h2>
             {/* <div className="inline-block">
