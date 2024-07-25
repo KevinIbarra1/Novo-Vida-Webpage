@@ -3,7 +3,7 @@ import React from 'react';
 export default function IndexSectionCta5() {
   return (
     <React.Fragment>
-      <section className="relative bg-no-repeat bg-center bg-cover bg-fixed overflow-hidden" style={{ backgroundImage: 'url("image00022.jpeg")' }}>
+      <section className="relative bg-no-repeat bg-center bg-cover bg-fixed overflow-hidden" style={{ backgroundImage: 'url("image00022.webp")' }}>
         <div className="absolute inset-0 bg-black bg-opacity-60" style={{ backdropFilter: 'blur(9px)' }}></div>
         <div className="relative py-40 container px-4 mx-auto text-center text-white">
           <div className="max-w-3xl mx-auto">

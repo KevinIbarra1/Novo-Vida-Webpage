@@ -5,10 +5,10 @@ export default function IndexSectionTestimonials7() {
     <React.Fragment>
       <section className="py-16 bg-white overflow-hidden">
         <div className="container px-4 mx-auto flex flex-col md:flex-row items-center justify-center">
-          <div className="md:w-1/3 flex justify-center">
+          <div className="md:w-1/3 flex justify-center bg-opacity-60">
             <img
-              className="rounded-xl"
-              src="excercicsing.jpg"
+              className="rounded-xl "
+              src="image00028.webp"
               alt="Fitness Importance"
             />
           </div>
