@@ -5,7 +5,7 @@ export default function AboutSectionCta10() {
     <React.Fragment>
       <>
         <section
-          className
+          className="bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: 'url("image00037.jpeg")' }}
         >
           <div
@@ -14,8 +14,8 @@ export default function AboutSectionCta10() {
           >
             <div className="container px-4 mx-auto">
               <div className="text-center max-w-3xl mx-auto">
-              <h2 className="mb-4 text-white  text-6xl md:text-6xl font-bold">
-              Sobre Nosotros
+                <h2 className="mb-4 text-white text-6xl md:text-6xl font-bold">
+                  Sobre Nosotros
                 </h2>
                 <div className="md:inline-block"></div>
               </div>

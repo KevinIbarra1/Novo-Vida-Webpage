@@ -833,10 +833,6 @@ video {
   max-height: 100vh;
 }
 
-.min-h-screen {
-  min-height: 100vh;
-}
-
 .w-3\/4 {
   width: 75%;
 }
@@ -1779,10 +1775,6 @@ video {
 
   .md\:w-auto {
     width: auto;
-  }
-
-  .md\:w-full {
-    width: 100%;
   }
 
   .md\:max-w-4xl {

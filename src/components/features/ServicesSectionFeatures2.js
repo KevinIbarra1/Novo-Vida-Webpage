@@ -22,7 +22,7 @@ export default function ServicesSectionFeatures2() {
               </div>
               <div className="w-full md:w-1/2 p-8">
                 <img
-                  className="rounded-3xl"
+                  className="rounded-3xl w-full object-cover"
                   src="https://static.shuffle.dev/uploads/files/6e/6e0f5129d29c66a42389554d32247ff33a40eeff/pexels-victorfreitas-791763.jpg"
                   alt="People exercising"
                 />
@@ -56,7 +56,7 @@ export default function ServicesSectionFeatures2() {
                 <div className="flex justify-center md:block h-full">
                   <div className="relative h-full rounded-3xl overflow-hidden">
                     <img
-                      className="h-full md:w-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
+                      className="w-full h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
                       src="https://static.shuffle.dev/uploads/files/6e/6e0f5129d29c66a42389554d32247ff33a40eeff/pexels-victorfreitas-791763.jpg"
                       alt="Independent Training"
                     />
@@ -80,7 +80,7 @@ export default function ServicesSectionFeatures2() {
                 <div className="flex justify-center md:block h-full">
                   <div className="relative h-full rounded-3xl overflow-hidden">
                     <img
-                      className="h-full md:w-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
+                      className="w-full h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
                       src="https://static.shuffle.dev/uploads/files/6e/6e0f5129d29c66a42389554d32247ff33a40eeff/pexels-andres-ayrton-6551436-jpg-1718150918975.webp"
                       alt="Weight loss Program"
                     />
@@ -104,7 +104,7 @@ export default function ServicesSectionFeatures2() {
                 <div className="flex justify-center md:block h-full">
                   <div className="relative h-full rounded-3xl overflow-hidden">
                     <img
-                      className="h-full md:w-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
+                      className="w-full h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
                       src="https://static.shuffle.dev/uploads/files/6e/6e0f5129d29c66a42389554d32247ff33a40eeff/pexels-victorfreitas-703016.jpg"
                       alt="Personal Training"
                     />
