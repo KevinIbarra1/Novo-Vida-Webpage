@@ -13,24 +13,25 @@ export default function IndexSectionFaqs3() {
 
   const faqData = [
     {
-      question: "1. ¿Ofrecen clases de prueba o membresías de prueba?",
+      question: "¿Cuáles son los horarios de operación del gimnasio?",
       answer:
-        "Sí, ofrecemos una clase de prueba gratuita para nuevos miembros y membresías de prueba de una semana para que puedas experimentar nuestras instalaciones y servicios.",
+        "Nuestro gimnasio está abierto de lunes a viernes de 6:00 am a 9:00 pm y los sábados de 8:00 am a 3:00 pm.",
     },
     {
-      question: "2. ¿Qué tipos de equipos y servicios ofrecen?",
+      question:
+        "¿Ofrecen algún tipo de orientación para el uso de los equipos?",
       answer:
-        "Nuestro gimnasio cuenta con una amplia variedad de equipos de última generación, incluyendo máquinas de cardio, pesas libres, y máquinas de resistencia. También ofrecemos clases grupales, entrenamientos personales, y programas de bienestar.",
+        "Sí, al iniciar una membresía con nosotros no solo obtienes orientación sobre cómo utilizar los equipos, sino que también obtienes un plan de alimentación y entrenamiento totalmente gratuito.",
     },
     {
-      question: "3. ¿Cuáles son los horarios de apertura?",
+      question: "¿Puedo obtener un programa de entrenamiento personalizado?",
       answer:
-        "Nuestro gimnasio está abierto de lunes a viernes de 6:00 a.m. a 10:00 p.m., y los fines de semana de 8:00 a.m. a 8:00 p.m. Queremos asegurarnos de que tengas la flexibilidad para entrenar cuando más te convenga.",
+        "Sí, nuestros entrenadores personales pueden crear un programa de entrenamiento personalizado basado en tus objetivos y necesidades.",
     },
     {
-      question: "4. ¿Existen programas de entrenamiento personalizados?",
+      question: "¿La membresía es por contrato?",
       answer:
-        "Sí, ofrecemos programas de entrenamiento personalizados diseñados por nuestros entrenadores certificados para ayudarte a alcanzar tus objetivos de acondicionamiento físico.",
+        "Ninguna de nuestras membresías requiere la implementación de un contrato.",
     },
   ];
 
