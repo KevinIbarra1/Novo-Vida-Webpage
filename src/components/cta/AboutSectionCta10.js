@@ -15,7 +15,7 @@ export default function AboutSectionCta10() {
             <div className="container px-4 mx-auto">
               <div className="text-center max-w-3xl mx-auto">
                 <h2 className="mb-4 text-white text-6xl md:text-6xl font-bold">
-                  Sobre Nosotros
+                  Nosotros
                 </h2>
                 <div className="md:inline-block"></div>
               </div>

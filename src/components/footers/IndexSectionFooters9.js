@@ -45,7 +45,7 @@ export default function IndexSectionFooters9() {
                     className="text-white hover:text-gray-300 font-medium px-2 py-1 sm:px-4 text-sm sm:text-base"
                     href="/About"
                   >
-                    SOBRE NOSOTROS
+                   NOSOTROS
                   </a>
                   <span className="hidden sm:inline text-white sm:mx-2">|</span>
                 </li>

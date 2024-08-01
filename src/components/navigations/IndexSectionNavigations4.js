@@ -63,7 +63,7 @@ export default function IndexSectionNavigations4() {
                       href="/About"
                       className="navTextOption px-4 font-medium hover:text-gray-700 text-lg md:text-xl"
                     >
-                      SOBRE NOSOTROS
+                       NOSOTROS
                     </a>
                     <span className="text-black">|</span>
                   </li>
@@ -158,7 +158,7 @@ export default function IndexSectionNavigations4() {
                   className="text-white text-lg md:text-xl font-medium hover:text-gray-400"
                   href="/About"
                 >
-                  SOBRE NOSOTROS
+                   NOSOTROS
                 </a>
               </li>
               <li className="mb-12">

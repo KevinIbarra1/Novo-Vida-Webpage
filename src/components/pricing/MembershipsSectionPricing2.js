@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function MembershipsSectionPricing2() {
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate("/about");
+  };
+
   return (
     <React.Fragment>
       <section className="pt-24 pb-28 bg-blueGray-50 overflow-hidden">
@@ -24,18 +31,19 @@ export default function MembershipsSectionPricing2() {
                       $45/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Incluye guía de rutinas básicas.
+                      - Incluye guía de rutinas básicas
                       <br />
-                      - Entrenamiento individual ilimitado de lunes a sábado.
-                      <br />- Sala de espera para niños.
+                      - Entrenamiento individual ilimitado de lunes a sábado
+                      <br />- Sala de espera para niños
                     </p>
                   </div>
                   <div className="mt-auto">
                     <button
                       className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
                       type="button"
+                      onClick={handleButtonClick}
                     >
-                      Suscríbete ahora
+                      Conócenos
                     </button>
                   </div>
                 </div>
@@ -54,20 +62,22 @@ export default function MembershipsSectionPricing2() {
                       $139/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Incluye dos días a la semana de entrenamiento personalizado.
+                      - Incluye dos días a la semana de entrenamiento
+                      personalizado
                       <br />
-                      - Plan de sugerencias alimentarias mensual.
+                      - Plan de sugerencias alimentarias mensual
                       <br />
-                      - Evaluación mensual.
-                      <br />- Acceso ilimitado al gimnasio de lunes a sábado.
+                      - Evaluación mensual
+                      <br />- Acceso ilimitado al gimnasio de lunes a sábado
                     </p>
                   </div>
                   <div className="mt-auto">
                     <button
                       className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
                       type="button"
+                      onClick={handleButtonClick}
                     >
-                      Suscríbete ahora
+                      Conócenos
                     </button>
                   </div>
                 </div>
@@ -86,20 +96,22 @@ export default function MembershipsSectionPricing2() {
                       $35/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Incluye dos días a la semana de entrenamiento personalizado.
+                      - Incluye dos días a la semana de entrenamiento
+                      personalizado
                       <br />
-                      - Plan de sugerencias alimentarias mensual.
+                      - Plan de sugerencias alimentarias mensual
                       <br />
-                      - Evaluación mensual.
-                      <br />- Acceso ilimitado al gimnasio de lunes a sábado.
+                      - Evaluación mensual
+                      <br />- Acceso ilimitado al gimnasio de lunes a sábado
                     </p>
                   </div>
                   <div className="mt-auto">
                     <button
                       className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
                       type="button"
+                      onClick={handleButtonClick}
                     >
-                      Suscríbete ahora
+                      Conócenos
                     </button>
                   </div>
                 </div>
@@ -118,16 +130,18 @@ export default function MembershipsSectionPricing2() {
                       $29/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Personas de 60 años en adelante.
-                      <br />- Entrenamiento individual ilimitado de lunes a sábado.
+                      - Personas de 60 años en adelante
+                      <br />- Entrenamiento individual ilimitado de lunes a
+                      sábado
                     </p>
                   </div>
                   <div className="mt-auto">
                     <button
                       className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
                       type="button"
+                      onClick={handleButtonClick}
                     >
-                      Suscríbete ahora
+                      Conócenos
                     </button>
                   </div>
                 </div>
@@ -146,16 +160,18 @@ export default function MembershipsSectionPricing2() {
                       $80/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Oferta válida mientras todos los participantes se mantengan activos.
-                      <br />- Acceso ilimitado al gimnasio de lunes a sábado.
+                      - Oferta válida mientras todos los participantes se
+                      mantengan activos
+                      <br />- Acceso ilimitado al gimnasio de lunes a sábado
                     </p>
                   </div>
                   <div className="mt-auto">
                     <button
                       className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
                       type="button"
+                      onClick={handleButtonClick}
                     >
-                      Suscríbete ahora
+                      Conócenos
                     </button>
                   </div>
                 </div>
@@ -174,20 +190,22 @@ export default function MembershipsSectionPricing2() {
                       $35/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Incluye dos días a la semana de entrenamiento personalizado.
+                      - Incluye dos días a la semana de entrenamiento
+                      personalizado
                       <br />
-                      - Plan de sugerencias alimentarias mensual.
+                      - Plan de sugerencias alimentarias mensual
                       <br />
-                      - Evaluación mensual.
-                      <br />- Acceso ilimitado al gimnasio de lunes a sábado.
+                      - Evaluación mensual
+                      <br />- Acceso ilimitado al gimnasio de lunes a sábado
                     </p>
                   </div>
                   <div className="mt-auto">
                     <button
                       className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
                       type="button"
+                      onClick={handleButtonClick}
                     >
-                      Suscríbete ahora
+                      Conócenos
                     </button>
                   </div>
                 </div>

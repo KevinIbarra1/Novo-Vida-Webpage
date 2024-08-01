@@ -22,8 +22,8 @@ export default function ServicesSectionFeatures2() {
               </div>
               <div className="w-full md:w-1/2 p-8">
                 <img
-                  className="rounded-3xl w-full object-cover"
-                  src="https://static.shuffle.dev/uploads/files/6e/6e0f5129d29c66a42389554d32247ff33a40eeff/pexels-victorfreitas-791763.jpg"
+                  className="bg-black bg-opacity-60 rounded-3xl w-full object-cover"
+                  src="/image00021.webp"
                   alt="People exercising"
                 />
               </div>
