@@ -7,6 +7,7 @@ import IndexSectionCta6 from '../components/cta/IndexSectionCta6';
 import IndexSectionFaqs3 from '../components/faqs/IndexSectionFaqs3';
 import IndexSectionFooters9 from '../components/footers/IndexSectionFooters9';
 import TestimonialsSectionTestimonials3 from '../components/testimonials/TestimonialsSectionTestimonials3';
+import BeforeAndAfter from '../components/custom/beforeAndAfter';
 
 const meta = {
   title: 'Bienvenido a Novo Vida: Empieza tu Nueva Vida',
@@ -41,6 +42,9 @@ export default function Index() {
       <IndexSectionTestimonials7 />
       <IndexSectionCta6 />
       <TestimonialsSectionTestimonials3 />
+      <BeforeAndAfter />
+
+
       <IndexSectionFaqs3 />
       <IndexSectionFooters9 />
     </React.Fragment>
