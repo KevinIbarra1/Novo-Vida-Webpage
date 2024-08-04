@@ -57,7 +57,7 @@ export default function ServicesSectionFeatures2() {
                   <div className="relative h-full rounded-3xl overflow-hidden">
                     <img
                       className="w-full h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
-                      src="https://static.shuffle.dev/uploads/files/6e/6e0f5129d29c66a42389554d32247ff33a40eeff/pexels-victorfreitas-791763.jpg"
+                      src="image00038.webp"
                       alt="Independent Training"
                     />
                     <div className="absolute bottom-0 left-0 w-full px-11 pb-10">

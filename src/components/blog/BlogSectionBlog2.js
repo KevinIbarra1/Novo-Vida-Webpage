@@ -19,8 +19,9 @@ export default function BlogSectionBlog2() {
                   <div className="overflow-hidden rounded-xl">
                     <img
                       className="transform hover:scale-105 transition ease-in-out duration-1000"
-                      src="flaro-assets/images/blog/blog.png"
+                      src="pexels-ivan-samkov-4164844.jpg"
                       alt="Blog 1"
+                      style={{ width: "162px", height: "162px" }}
                     />
                   </div>
                 </div>
@@ -29,30 +30,16 @@ export default function BlogSectionBlog2() {
                     <div className="flex flex-col justify-between h-full">
                       <div className="mb-6">
                         <p className="mb-1.5 text-sm text-gray-500 font-medium uppercase tracking-px">
-                          Product
+                          Bienestar
                         </p>
                         <a
                           className="inline-block hover:text-gray-800 hover:underline"
                           href="/bajarDePeso"
                         >
                           <h3 className="text-xl font-semibold leading-normal">
-                            La Importancia de la Dieta y el Ejercicio para
-                            Perder Peso
+                            Los Beneficios de la Actividad Física Regular
                           </h3>
                         </a>
-                      </div>
-                      <div className="flex flex-wrap items-center -m-1">
-                        <div className="w-auto p-1">
-                          <img
-                            src="flaro-assets/images/blog/blog-avatar.png"
-                            alt="Avatar 1"
-                          />
-                        </div>
-                        <div className="w-auto p-1">
-                          <p className="text-sm font-semibold leading-relaxed">
-                            Gerardo Sillas
-                          </p>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -65,8 +52,9 @@ export default function BlogSectionBlog2() {
                   <div className="overflow-hidden rounded-xl">
                     <img
                       className="transform hover:scale-105 transition ease-in-out duration-1000"
-                      src="flaro-assets/images/blog/blog2.png"
+                      src="pexels-cottonbro-4753891.jpg"
                       alt="Blog 2"
+                      style={{ width: "162px", height: "162px" }}
                     />
                   </div>
                 </div>
@@ -75,29 +63,16 @@ export default function BlogSectionBlog2() {
                     <div className="flex flex-col justify-between h-full">
                       <div className="mb-6">
                         <p className="mb-1.5 text-sm text-gray-500 font-medium uppercase tracking-px">
-                          Product
+                          Bienestar
                         </p>
                         <a
                           className="inline-block hover:text-gray-800 hover:underline"
-                          href="/articles/bajarDePeso"
+                          href="/RutinaEjercicio"
                         >
                           <h3 className="text-xl font-semibold leading-normal">
-                            Top 10 Recovery Tips for Post-Workout Success
+                            Cómo Crear una Rutina de Ejercicios Eficaz
                           </h3>
                         </a>
-                      </div>
-                      <div className="flex flex-wrap items-center -m-1">
-                        <div className="w-auto p-1">
-                          <img
-                            src="flaro-assets/images/blog/blog-avatar2.png"
-                            alt="Avatar 2"
-                          />
-                        </div>
-                        <div className="w-auto p-1">
-                          <p className="text-sm font-semibold leading-relaxed">
-                            Bessie Cooper
-                          </p>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -110,8 +85,9 @@ export default function BlogSectionBlog2() {
                   <div className="overflow-hidden rounded-xl">
                     <img
                       className="transform hover:scale-105 transition ease-in-out duration-1000"
-                      src="flaro-assets/images/blog/blog3.png"
+                      src="healthyMeal.webp"
                       alt="Blog 3"
+                      style={{ width: "162px", height: "162px" }}
                     />
                   </div>
                 </div>
@@ -120,29 +96,16 @@ export default function BlogSectionBlog2() {
                     <div className="flex flex-col justify-between h-full">
                       <div className="mb-6">
                         <p className="mb-1.5 text-sm text-gray-500 font-medium uppercase tracking-px">
-                          Product
+                          Bienestar
                         </p>
                         <a
                           className="inline-block hover:text-gray-800 hover:underline"
-                          href="/articles/bajarDePeso"
+                          href="/nutricion"
                         >
                           <h3 className="text-xl font-semibold leading-normal">
-                            The Ultimate Guide to Nutrition for Gym Enthusiasts
+                            La Importancia de la Nutrición en el Fitness
                           </h3>
                         </a>
-                      </div>
-                      <div className="flex flex-wrap items-center -m-1">
-                        <div className="w-auto p-1">
-                          <img
-                            src="flaro-assets/images/blog/blog-avatar3.png"
-                            alt="Avatar 3"
-                          />
-                        </div>
-                        <div className="w-auto p-1">
-                          <p className="text-sm font-semibold leading-relaxed">
-                            Albert Flores
-                          </p>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -155,8 +118,9 @@ export default function BlogSectionBlog2() {
                   <div className="overflow-hidden rounded-xl">
                     <img
                       className="transform hover:scale-105 transition ease-in-out duration-1000"
-                      src="flaro-assets/images/blog/blog4.png"
+                      src="pexels-miriam-alonso-7592345.jpg"
                       alt="Blog 4"
+                      style={{ width: "162px", height: "162px" }}
                     />
                   </div>
                 </div>
@@ -165,29 +129,16 @@ export default function BlogSectionBlog2() {
                     <div className="flex flex-col justify-between h-full">
                       <div className="mb-6">
                         <p className="mb-1.5 text-sm text-gray-500 font-medium uppercase tracking-px">
-                          Product
+                          Bienestar
                         </p>
                         <a
                           className="inline-block hover:text-gray-800 hover:underline"
-                          href="/articles/bajarDePeso"
+                          href="/principiantes"
                         >
                           <h3 className="text-xl font-semibold leading-normal">
-                            How to Stay Motivated and Achieve Your Fitness Goals
+                            Ejercicios Específicos para Principiantes
                           </h3>
                         </a>
-                      </div>
-                      <div className="flex flex-wrap items-center -m-1">
-                        <div className="w-auto p-1">
-                          <img
-                            src="flaro-assets/images/blog/blog-avatar4.png"
-                            alt="Avatar 4"
-                          />
-                        </div>
-                        <div className="w-auto p-1">
-                          <p className="text-sm font-semibold leading-relaxed">
-                            Jerome Bell
-                          </p>
-                        </div>
                       </div>
                     </div>
                   </div>
