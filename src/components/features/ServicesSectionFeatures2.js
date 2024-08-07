@@ -9,10 +9,10 @@ export default function ServicesSectionFeatures2() {
             <div className="mb-20 flex flex-wrap -m-8 items-center">
               <div className="w-full md:w-1/2 p-8">
                 <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold font-heading tracking-px-n leading-tight">
-                  NOVO <span className="text-blue-500">VIDA</span> GYM CLUB
+                  NOVO<span className="text-blue-500">VIDA</span> GYM CLUB
                 </h2>
                 <p className="text-lg text-gray-900 font-medium leading-relaxed mt-4">
-                  NovoVida es un gimnasio innovador enfocado en transformar
+                  Novovida es un gimnasio innovador enfocado en transformar
                   vidas a través del fitness y la salud, especialmente para
                   aquellos con poco conocimiento en el gimnasio. En un ambiente
                   acogedor y motivador, proporcionamos clases grupales,
