@@ -5,15 +5,15 @@ import BlogSectionBlog2 from "../components/blog/BlogSectionBlog2";
 import IndexSectionFooters9 from "../components/footers/IndexSectionFooters9";
 
 const meta = {
-  title: "Blog de Fitness y Salud de Novo Vida - La Importancia de la Dieta y el Ejercicio para Perder Peso",
+  title: "Blog de Fitness y Salud de Novovida - La Importancia de la Dieta y el Ejercicio para Perder Peso",
   meta: [
     {
       name: "keywords",
-      content: "blog de fitness, consejos de salud, perder peso, dieta y ejercicio, bienestar, gimnasio Novo Vida",
+      content: "blog de fitness, consejos de salud, perder peso, dieta y ejercicio, bienestar, gimnasio Novovida",
     },
     {
       name: "description",
-      content: "Descubre cómo una dieta equilibrada y el ejercicio regular son esenciales para perder peso y mantener un estilo de vida saludable. Lee más en el blog de Novo Vida.",
+      content: "Descubre cómo una dieta equilibrada y el ejercicio regular son esenciales para perder peso y mantener un estilo de vida saludable. Lee más en el blog de Novovida.",
     },
   ],
   link: [],
@@ -53,7 +53,7 @@ export default function Blog() {
               Para obtener los mejores resultados, combina una dieta saludable con un programa de ejercicio regular. No solo verás una pérdida de peso más rápida, sino que también mejorarás tu estado de ánimo, energía y salud general. Recuerda que cada persona es diferente, por lo que es importante encontrar un equilibrio que funcione para ti.
             </p>
             <p className="text-lg text-justify mb-4">
-              Perder peso no es una tarea fácil, pero con una combinación de dieta equilibrada y ejercicio regular, es completamente alcanzable. En Novo Vida, estamos aquí para apoyarte en cada paso de tu viaje hacia un estilo de vida más saludable. ¡Comienza hoy y siente la diferencia!
+              Perder peso no es una tarea fácil, pero con una combinación de dieta equilibrada y ejercicio regular, es completamente alcanzable. En Novovida, estamos aquí para apoyarte en cada paso de tu viaje hacia un estilo de vida más saludable. ¡Comienza hoy y siente la diferencia!
             </p>
           </div>
         </div>

@@ -7,7 +7,7 @@ export default function AboutSectionTeams9() {
         <section className="pt-24 pb-32 bg-white overflow-hidden">
           <div className="container px-4 mx-auto">
             <h2 className="mb-5 text-6xl md:text-8xl xl:text-10xl text-center font-bold font-heading tracking-px-n leading-none">
-              Equipo detrás de Novo Vida
+              Equipo detrás de Novovida
             </h2>
             <p className="text-lg text-gray-600 text-center font-medium md:max-w-xl mx-auto">
               Nuestro equipo está dedicado a brindar la mejor experiencia y

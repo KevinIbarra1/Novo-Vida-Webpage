@@ -24,7 +24,7 @@ export default function ServicesSectionCta5() {
                   ¿Listo para comenzar?
                 </h2>
                 <p className="text-white text-opacity-90 font-medium md:max-w-md">
-                  Únete a Novo Vida Gym Club y comienza tu viaje hacia un estilo
+                  Únete a Novovida Gym Club y comienza tu viaje hacia un estilo
                   de vida más saludable y activo. Contamos con instalaciones de
                   primera y entrenadores profesionales para ayudarte a alcanzar
                   tus metas.

@@ -6,17 +6,17 @@ import IndexSectionFooters9 from "../components/footers/IndexSectionFooters9";
 
 const meta = {
   title:
-    "Blog de Fitness y Salud de Novo Vida - Cómo Crear una Rutina de Ejercicios Eficaz",
+    "Blog de Fitness y Salud de Novovida - Cómo Crear una Rutina de Ejercicios Eficaz",
   meta: [
     {
       name: "keywords",
       content:
-        "blog de fitness, consejos de salud, rutina de ejercicios, ejercicio eficaz, bienestar, gimnasio Novo Vida",
+        "blog de fitness, consejos de salud, rutina de ejercicios, ejercicio eficaz, bienestar, gimnasio Novovida",
     },
     {
       name: "description",
       content:
-        "Descubre cómo diseñar una rutina de ejercicios eficaz que se adapte a tus objetivos y nivel de condición física. Lee más en el blog de Novo Vida.",
+        "Descubre cómo diseñar una rutina de ejercicios eficaz que se adapte a tus objetivos y nivel de condición física. Lee más en el blog de Novovida.",
     },
   ],
   link: [],
@@ -64,7 +64,7 @@ export default function Blog() {
             <p className="text-lg text-justify mb-4">
               Con un plan bien estructurado, maximizarás los beneficios de tu
               tiempo en el gimnasio y alcanzarás tus objetivos de fitness de
-              manera más efectiva. En Novo Vida, te ofrecemos el apoyo y los
+              manera más efectiva. En Novovida, te ofrecemos el apoyo y los
               recursos necesarios para que diseñes una rutina que funcione para
               ti. ¡Empieza hoy mismo y descubre cómo una buena planificación
               puede transformar tu vida!

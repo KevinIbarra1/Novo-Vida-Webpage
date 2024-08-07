@@ -9,7 +9,7 @@ export default function ContactusSectionContact6() {
                         <div className="mb-20 text-center md:max-w-xl mx-auto text-left">
                             <h2 className="mb-4 text-6xl md:text-7xl font-bold font-heading tracking-px-n leading-tight">¡Encuéntranos!</h2>
                             <p className="text-lg text-gray-600 font-medium leading-normal md:max-w-lg mx-auto">
-                                En Novo Vida, nos dedicamos a ayudarte a alcanzar tus metas de fitness. Visítanos en Sabana Grande y descubre nuestras instalaciones y entrenadores expertos. ¡Estamos aquí para apoyarte!
+                                En Novovida, nos dedicamos a ayudarte a alcanzar tus metas de fitness. Visítanos en Sabana Grande y descubre nuestras instalaciones y entrenadores expertos. ¡Estamos aquí para apoyarte!
                             </p>
                         </div>
                         <div className="flex flex-wrap xl:items-center -m-8 justify-center">

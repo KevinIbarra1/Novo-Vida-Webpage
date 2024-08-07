@@ -10,7 +10,7 @@ import TestimonialsSectionTestimonials3 from '../components/testimonials/Testimo
 import BeforeAndAfter from '../components/custom/beforeAndAfter';
 
 const meta = {
-  title: 'Bienvenido a Novo Vida: Empieza tu Nueva Vida',
+  title: 'Bienvenido a Novovida: Empieza tu Nueva Vida',
   meta: [
     {
       name: 'keywords',
@@ -18,7 +18,7 @@ const meta = {
     },
     {
       name: 'description',
-      content: 'Descubre Novo Vida, el gimnasio líder en fitness y bienestar. Ofrecemos equipos de última generación, clases grupales y entrenamientos personalizados para ayudarte a alcanzar tus objetivos de salud.',
+      content: 'Descubre Novovida, el gimnasio líder en fitness y bienestar. Ofrecemos equipos de última generación, clases grupales y entrenamientos personalizados para ayudarte a alcanzar tus objetivos de salud.',
     },
   ],
   link: [],
