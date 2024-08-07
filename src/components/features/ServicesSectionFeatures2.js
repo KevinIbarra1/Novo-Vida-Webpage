@@ -9,7 +9,7 @@ export default function ServicesSectionFeatures2() {
             <div className="mb-20 flex flex-wrap -m-8 items-center">
               <div className="w-full md:w-1/2 p-8">
                 <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold font-heading tracking-px-n leading-tight">
-                  NOVO<span className="text-blue-500">VIDA</span> GYM CLUB
+                <span className="text-blue-500">NOVOVIDA</span> GYM CLUB
                 </h2>
                 <p className="text-lg text-gray-900 font-medium leading-relaxed mt-4">
                   Novovida es un gimnasio innovador enfocado en transformar
