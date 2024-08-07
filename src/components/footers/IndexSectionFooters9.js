@@ -8,7 +8,7 @@ export default function IndexSectionFooters9() {
           <div className="flex flex-wrap justify-center items-center w-full">
             <div className="w-full sm:w-auto p-4 sm:p-8">
               <a href="/" className="text-blue-500 font-bold text-lg sm:text-lg md:text-xl lg:text-2xl">
-                Novo Vida Gym Club
+                Novovida Gym Club
               </a>
             </div>
             <div className="w-full sm:w-auto p-4 sm:p-8">

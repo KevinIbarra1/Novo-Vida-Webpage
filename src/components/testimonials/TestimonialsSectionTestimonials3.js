@@ -30,7 +30,7 @@ export default function TestimonialsSectionTestimonials3() {
                         </h3>
                       </div>
                       <p className="text-lg font-medium">
-                        “Novo Vida fue clave en mi cambio fisico pero sobre todo, en la perspectiva que tengo sobre mi mismo. Sin duda alguna cambio no solo mi salud fisica, si no que tambien la mental.”
+                        “Novovida fue clave en mi cambio fisico pero sobre todo, en la perspectiva que tengo sobre mi mismo. Sin duda alguna cambio no solo mi salud fisica, si no que tambien la mental.”
                       </p>
                     </div>
                   </div>
@@ -46,7 +46,7 @@ export default function TestimonialsSectionTestimonials3() {
                         </h3>
                       </div>
                       <p className="text-lg font-medium">
-                        “Novo Vida, me ha ayudado con mi salud mental, en cómo hacer mis comidas diarias y sobre todo me ha regalado una bonita familia.”
+                        “Novovida, me ha ayudado con mi salud mental, en cómo hacer mis comidas diarias y sobre todo me ha regalado una bonita familia.”
                       </p>
                     </div>
                   </div>

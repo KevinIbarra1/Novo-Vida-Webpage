@@ -23,7 +23,7 @@ export default function IndexSectionTestimonials7() {
               ejercicio regular no solo fortalecerá tu cuerpo y reducirá el
               riesgo de enfermedades, sino que también liberará endorfinas que
               te harán sentir más feliz y relajado. ¡Da el primer paso hoy y
-              empieza a construir tu nueva vida con nosotros en Novo Vida!
+              empieza a construir tu nueva vida con nosotros en Novovida!
             </p>
           </div>
         </div>

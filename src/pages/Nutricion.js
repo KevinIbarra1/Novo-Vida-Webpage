@@ -5,15 +5,15 @@ import BlogSectionBlog2 from "../components/blog/BlogSectionBlog2";
 import IndexSectionFooters9 from "../components/footers/IndexSectionFooters9";
 
 const meta = {
-  title: "Blog de Fitness y Salud de Novo Vida - La Importancia de la Nutrición en el Fitness",
+  title: "Blog de Fitness y Salud de Novovida - La Importancia de la Nutrición en el Fitness",
   meta: [
     {
       name: "keywords",
-      content: "blog de fitness, consejos de salud, nutrición, dieta y ejercicio, bienestar, gimnasio Novo Vida",
+      content: "blog de fitness, consejos de salud, nutrición, dieta y ejercicio, bienestar, gimnasio Novovida",
     },
     {
       name: "description",
-      content: "Descubre cómo una dieta equilibrada es fundamental para complementar tu régimen de ejercicios y ayudarte a alcanzar tus metas de fitness. Lee más en el blog de Novo Vida.",
+      content: "Descubre cómo una dieta equilibrada es fundamental para complementar tu régimen de ejercicios y ayudarte a alcanzar tus metas de fitness. Lee más en el blog de Novovida.",
     },
   ],
   link: [],
@@ -47,7 +47,7 @@ export default function Blog() {
               Además, los micronutrientes, como las vitaminas y los minerales, son esenciales para mantener la salud general. La hidratación también es clave para optimizar el rendimiento, y debes asegurarte de beber suficiente agua antes, durante y después de los entrenamientos. El timing de las comidas es otro aspecto importante; saber cuándo y qué comer antes y después de los ejercicios puede marcar una gran diferencia en tu rendimiento y recuperación.
             </p>
             <p className="text-lg text-justify mb-4">
-              Además, aunque no son esenciales para todos, algunos suplementos pueden ser beneficiosos, dependiendo de tus necesidades específicas. Una nutrición adecuada puede potenciar tus entrenamientos, acelerar la recuperación y mejorar tu salud general. En Novo Vida, te ofrecemos guías y consejos para que puedas mantener una dieta balanceada que complemente tu rutina de ejercicios.
+              Además, aunque no son esenciales para todos, algunos suplementos pueden ser beneficiosos, dependiendo de tus necesidades específicas. Una nutrición adecuada puede potenciar tus entrenamientos, acelerar la recuperación y mejorar tu salud general. En Novovida, te ofrecemos guías y consejos para que puedas mantener una dieta balanceada que complemente tu rutina de ejercicios.
             </p>
           </div>
         </div>

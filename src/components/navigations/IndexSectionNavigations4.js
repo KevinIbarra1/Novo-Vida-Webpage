@@ -17,11 +17,11 @@ export default function IndexSectionNavigations4() {
                 <a href="/" className="flex items-center">
                   <img
                     src="NovoVidaLogo.png"
-                    alt="Novo Vida Logo"
+                    alt="Novovida Logo"
                     className="h-8 md:h-8"
                   />
                   <span className="ml-2 text-poppins font-bold text-lg md:text-xl">
-                    Novo Vida Gym Club
+                    Novovida Gym Club
                   </span>
                 </a>
               </div>
