@@ -17,7 +17,7 @@ export default function MembershipsSectionPricing2() {
           </h2>
           <div className="mb-24 md:max-w-6xl mx-auto">
             <div className="flex flex-wrap -m-4">
-              {/* Plan 1 */}
+              {/* Plan 1: Novo Seniors */}
               <div className="w-full md:w-1/3 p-4">
                 <div
                   className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
@@ -25,20 +25,185 @@ export default function MembershipsSectionPricing2() {
                 >
                   <div>
                     <span className="mb-3 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Entrenamiento Independiente
+                      Novo Seniors (Personas de 55 años o más)
+                    </span>
+                    <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
+                      $29/mes
+                    </h3>
+                    <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
+                      - $29.00 mensual, 2 meses x $55.00 o 3 meses x $74.00
+                      <br />
+                      - $10.00 matrícula
+                      <br />- $30.00 cuota anual de mantenimiento
+                    </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>
+                        Entrenamiento Individual Ilimitado (Lunes a Sábado)
+                      </li>
+                      <li>Guía de rutinas básica</li>
+                      <li>Guía básica de alimentación</li>
+                    </ul>
+                  </div>
+                  <div className="mt-auto">
+                    <button
+                      className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
+                      type="button"
+                      onClick={handleButtonClick}
+                    >
+                      Conócenos
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Plan 2: Novo Family (Dos personas) */}
+              <div className="w-full md:w-1/3 p-4">
+                <div
+                  className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
+                  style={{ backdropFilter: "blur(46px)", minHeight: "400px" }}
+                >
+                  <div>
+                    <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
+                      Novo Family (Dos personas)
+                    </span>
+                    <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
+                      $80/mes
+                    </h3>
+                    <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
+                      - $80.00 mensual
+                      <br />
+                      - $20.00 matrícula
+                      <br />- $30.00 cuota anual de mantenimiento
+                      <br />- Oferta válida mientras todos los participantes se
+                      mantengan activos
+                    </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>
+                        Entrenamiento individual ilimitado (Lunes a Sábado)
+                      </li>
+                      <li>Guía de rutinas básica</li>
+                      <li>Guía básica de alimentación</li>
+                    </ul>
+                  </div>
+                  <div className="mt-auto">
+                    <button
+                      className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
+                      type="button"
+                      onClick={handleButtonClick}
+                    >
+                      Conócenos
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Plan 3: Novo Family (Tres personas) */}
+              <div className="w-full md:w-1/3 p-4">
+                <div
+                  className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
+                  style={{ backdropFilter: "blur(46px)", minHeight: "400px" }}
+                >
+                  <div>
+                    <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
+                      Novo Family (Tres personas)
+                    </span>
+                    <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
+                      $115/mes
+                    </h3>
+                    <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
+                      - $115.00 mensual
+                      <br />
+                      - $20.00 matrícula
+                      <br />- $30.00 cuota anual de mantenimiento
+                      <br />- Oferta válida mientras todos los participantes se
+                      mantengan activos
+                    </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>
+                        Entrenamiento individual ilimitado (Lunes a Sábado)
+                      </li>
+                      <li>Guía de rutinas básica</li>
+                      <li>Guía básica de alimentación</li>
+                    </ul>
+                  </div>
+                  <div className="mt-auto">
+                    <button
+                      className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
+                      type="button"
+                      onClick={handleButtonClick}
+                    >
+                      Conócenos
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Plan 4: Servidor Público */}
+              <div className="w-full md:w-1/3 p-4">
+                <div
+                  className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
+                  style={{ backdropFilter: "blur(46px)", minHeight: "400px" }}
+                >
+                  <div>
+                    <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
+                      Servidor Público (Toda persona que trabaje con alguna
+                      agencia gubernamental)
+                    </span>
+                    <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
+                      $35/mes
+                    </h3>
+                    <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
+                      - $35.00 mensual
+                      <br />
+                      - $10.00 matrícula
+                      <br />- $30.00 cuota anual de mantenimiento
+                    </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>
+                        Entrenamiento individual ilimitado (Lunes a Sábado)
+                      </li>
+                      <li>Guía de rutinas básica</li>
+                      <li>Guía básica de alimentación</li>
+                    </ul>
+                  </div>
+                  <div className="mt-auto">
+                    <button
+                      className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
+                      type="button"
+                      onClick={handleButtonClick}
+                    >
+                      Conócenos
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Plan 5: Entrenamiento Individual */}
+              <div className="w-full md:w-1/3 p-4">
+                <div
+                  className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
+                  style={{ backdropFilter: "blur(46px)", minHeight: "400px" }}
+                >
+                  <div>
+                    <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
+                      Entrenamiento Individual
                     </span>
                     <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
                       $45/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Entrenamiento individual ilimitado de lunes a sábado
-                      <br />
-                      - Acceso ilimitado al gimnasio
-                      <br />
-                      - Plan nutricional para 30 días
-                      <br />
-                      - Guía de rutinas básicas
-                      <br />
                       - $45.00 mensual, 2 meses x $85.00, 3 meses x $120.00, 6
                       meses x $198.00, 1 año x $348.00
                       <br />
@@ -69,28 +234,33 @@ export default function MembershipsSectionPricing2() {
                 </div>
               </div>
 
-              {/* Plan 2 */}
-              {/* <div className="w-full md:w-1/3 p-4">
+              {/* Plan 6: Entrenamiento Personal (16 días) */}
+              <div className="w-full md:w-1/3 p-4">
                 <div
                   className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
                   style={{ backdropFilter: "blur(46px)", minHeight: "400px" }}
                 >
                   <div>
                     <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Entrenamiento Personalizado
+                      Entrenamiento Personal (16 días)
                     </span>
                     <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
-                      $139/mes
+                      $220/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Incluye dos días a la semana de entrenamiento
-                      personalizado
+                      - $220.00 mensual
                       <br />
-                      - Plan de sugerencias alimentarias mensual
-                      <br />
-                      - Evaluación mensual
-                      <br />- Acceso ilimitado al gimnasio de lunes a sábado
+                      - $0.00 matrícula
+                      <br />- $30.00 cuota anual de mantenimiento
                     </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>Periodización de entrenamiento</li>
+                      <li>Evaluación mensual</li>
+                      <li>Acceso ilimitado al gimnasio de lunes a sábado</li>
+                    </ul>
                   </div>
                   <div className="mt-auto">
                     <button
@@ -102,8 +272,89 @@ export default function MembershipsSectionPricing2() {
                     </button>
                   </div>
                 </div>
-              </div> */}
-              {/* Plan 3 */}
+              </div>
+
+              {/* Plan 7: Entrenamiento Personal (12 días) */}
+              <div className="w-full md:w-1/3 p-4">
+                <div
+                  className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
+                  style={{ backdropFilter: "blur(46px)", minHeight: "400px" }}
+                >
+                  <div>
+                    <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
+                      Entrenamiento Personal (12 días)
+                    </span>
+                    <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
+                      $175/mes
+                    </h3>
+                    <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
+                      - $175.00 mensual
+                      <br />
+                      - $0.00 matrícula
+                      <br />- $30.00 cuota anual de mantenimiento
+                    </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>Periodización de entrenamiento</li>
+                      <li>Evaluación mensual</li>
+                      <li>Acceso ilimitado al gimnasio de lunes a sábado</li>
+                    </ul>
+                  </div>
+                  <div className="mt-auto">
+                    <button
+                      className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
+                      type="button"
+                      onClick={handleButtonClick}
+                    >
+                      Conócenos
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Plan 8: Entrenamiento Personal (8 días) */}
+              <div className="w-full md:w-1/3 p-4">
+                <div
+                  className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
+                  style={{ backdropFilter: "blur(46px)", minHeight: "400px" }}
+                >
+                  <div>
+                    <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
+                      Entrenamiento Personal (8 días)
+                    </span>
+                    <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
+                      $130/mes
+                    </h3>
+                    <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
+                      - $130.00 mensual
+                      <br />
+                      - $0.00 matrícula
+                      <br />- $30.00 cuota anual de mantenimiento
+                    </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>Periodización de entrenamiento</li>
+                      <li>Evaluación mensual</li>
+                      <li>Acceso ilimitado al gimnasio de lunes a sábado</li>
+                    </ul>
+                  </div>
+                  <div className="mt-auto">
+                    <button
+                      className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
+                      type="button"
+                      onClick={handleButtonClick}
+                    >
+                      Conócenos
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Plan 9: Oferta para Estudiantes */}
               <div className="w-full md:w-1/3 p-4">
                 <div
                   className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
@@ -118,11 +369,7 @@ export default function MembershipsSectionPricing2() {
                       $35/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Entrenamiento individual ilimitado de lunes a sábado
-                      <br />
-                      - Guía de rutinas básicas
-                      <br />
-                      - Guía básica de alimentación
+                      - $35.00 mensual
                       <br />
                       - $10.00 matrícula
                       <br />- $30.00 cuota anual de mantenimiento
@@ -136,346 +383,6 @@ export default function MembershipsSectionPricing2() {
                       </li>
                       <li>Guía de rutinas básica</li>
                       <li>Guía básica de alimentación</li>
-                    </ul>
-                  </div>
-                  <div className="mt-auto">
-                    <button
-                      className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
-                      type="button"
-                      onClick={handleButtonClick}
-                    >
-                      Conócenos
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              {/* Plan 4 */}
-              <div className="w-full md:w-1/3 p-4">
-                <div
-                  className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
-                  style={{ backdropFilter: "blur(46px)", minHeight: "400px" }}
-                >
-                  <div>
-                    <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Novo Seniors
-                    </span>
-                    <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
-                      $29/mes
-                    </h3>
-                    <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Personas de 55 años en adelante
-                      <br />- Entrenamiento individual ilimitado de lunes a
-                      sábado
-                      <br />- $29.00 mensual, 2 meses x $55.00 o 3 meses x
-                      $74.00
-                      <br />- $10.00 matrícula
-                      <br />- $30.00 cuota anual de mantenimiento
-                    </p>
-                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
-                      Incluye:
-                    </h4>
-                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
-                      <li>
-                        Entrenamiento Individual Ilimitado (Lunes a Sábado)
-                      </li>
-                      <li>Guía de rutinas básica</li>
-                      <li>Guía básica de alimentación</li>
-                    </ul>
-                  </div>
-                  <div className="mt-auto">
-                    <button
-                      className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
-                      type="button"
-                      onClick={handleButtonClick}
-                    >
-                      Conócenos
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              {/* Plan 5 */}
-              <div className="w-full md:w-1/3 p-4">
-                <div
-                  className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
-                  style={{ backdropFilter: "blur(46px)", minHeight: "400px" }}
-                >
-                  <div>
-                    <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Novo Family (2 Personas)
-                    </span>
-                    <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
-                      $80/mes
-                    </h3>
-                    <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Entrenamiento individual ilimitado de lunes a sábado
-                      <br />
-                      - Acceso ilimitado al gimnasio
-                      <br />
-                      - Plan nutricional para 30 días
-                      <br />
-                      - Guía de rutinas básicas
-                      <br />
-                      - $20.00 matrícula
-                      <br />
-                      - $30.00 cuota anual de mantenimiento
-                      <br />- Oferta válida mientras todos los participantes se
-                      mantengan activos
-                    </p>
-                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
-                      Incluye:
-                    </h4>
-                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
-                      <li>
-                        Entrenamiento individual ilimitado (Lunes a Sábado)
-                      </li>
-                      <li>Guía de rutinas básica</li>
-                      <li>Guía básica de alimentación</li>
-                    </ul>
-                  </div>
-                  <div className="mt-auto">
-                    <button
-                      className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
-                      type="button"
-                      onClick={handleButtonClick}
-                    >
-                      Conócenos
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              {/* Plan 5 */}
-              <div className="w-full md:w-1/3 p-4">
-                <div
-                  className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
-                  style={{ backdropFilter: "blur(46px)", minHeight: "400px" }}
-                >
-                  <div>
-                    <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Novo Family (3 Personas)
-                    </span>
-                    <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
-                      $115/mes
-                    </h3>
-                    <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Entrenamiento individual ilimitado de lunes a sábado
-                      <br />
-                      - Acceso ilimitado al gimnasio
-                      <br />
-                      - Plan nutricional para 30 días
-                      <br />
-                      - Guía de rutinas básicas
-                      <br />
-                      - $20.00 matrícula
-                      <br />
-                      - $30.00 cuota anual de mantenimiento
-                      <br />- Oferta válida mientras todos los participantes se
-                      mantengan activos
-                    </p>
-                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
-                      Incluye:
-                    </h4>
-                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
-                      <li>
-                        Entrenamiento individual ilimitado (Lunes a Sábado)
-                      </li>
-                      <li>Guía de rutinas básica</li>
-                      <li>Guía básica de alimentación</li>
-                    </ul>
-                  </div>
-                  <div className="mt-auto">
-                    <button
-                      className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
-                      type="button"
-                      onClick={handleButtonClick}
-                    >
-                      Conócenos
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              {/* Plan 6 */}
-              <div className="w-full md:w-1/3 p-4">
-                <div
-                  className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
-                  style={{ backdropFilter: "blur(46px)", minHeight: "400px" }}
-                >
-                  <div>
-                    <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Servidor Público (Toda persona que trabaje con alguna
-                      agencia gubernamental)
-                    </span>
-                    <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
-                      $35/mes
-                    </h3>
-                    <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Personas que trabajen en agencias gubernamentales
-                      <br />
-                      - Incluye dos días a la semana de entrenamiento
-                      personalizado
-                      <br />
-                      - Plan de sugerencias alimentarias mensual
-                      <br />
-                      - Evaluación mensual
-                      <br />
-                      - Acceso ilimitado al gimnasio de lunes a sábado
-                      <br />
-                      - $20.00 matrícula
-                      <br />
-                      - $30.00 cuota anual de mantenimiento
-                      <br />- Oferta válida mientras todos los participantes se
-                      mantengan activos
-                    </p>
-                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
-                      Incluye:
-                    </h4>
-                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
-                      <li>
-                        Entrenamiento individual ilimitado (Lunes a Sábado)
-                      </li>
-                      <li>Guía de rutinas básica</li>
-                      <li>Guía básica de alimentación</li>
-                    </ul>
-                  </div>
-                  <div className="mt-auto">
-                    <button
-                      className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
-                      type="button"
-                      onClick={handleButtonClick}
-                    >
-                      Conócenos
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              {/* Plan 7 */}
-              <div className="w-full md:w-1/3 p-4">
-                <div
-                  className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
-                  style={{ backdropFilter: "blur(46px)", minHeight: "400px" }}
-                >
-                  <div>
-                    <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Entrenamiento Personal (8 días)
-                    </span>
-                    <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
-                      $130/mes
-                    </h3>
-                    <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Personal training 8 días al mes
-                      <br />
-                      - Periodización de entrenamiento
-                      <br />
-                      - Evaluación mensual
-                      <br />
-                      - Acceso ilimitado al gimnasio de lunes a sábado
-                      <br />
-                      - $0.00 matrícula
-                      <br />- $30.00 cuota anual de mantenimiento
-                    </p>
-                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
-                      Incluye:
-                    </h4>
-                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
-                      <li>Periodización de entrenamiento</li>
-                      <li>Evaluación mensual</li>
-                      <li>Acceso ilimitado al gimnasio de lunes a sábado</li>
-                    </ul>
-                  </div>
-                  <div className="mt-auto">
-                    <button
-                      className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
-                      type="button"
-                      onClick={handleButtonClick}
-                    >
-                      Conócenos
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              {/* Plan 8 */}
-              <div className="w-full md:w-1/3 p-4">
-                <div
-                  className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
-                  style={{ backdropFilter: "blur(46px)", minHeight: "400px" }}
-                >
-                  <div>
-                    <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Entrenamiento Personal (16 días)
-                    </span>
-                    <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
-                      $220/mes
-                    </h3>
-                    <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Personal training 2 días en semana
-                      <br />
-                      - Periodización de entrenamiento
-                      <br />
-                      - Evaluación mensual
-                      <br />
-                      - Acceso ilimitado al gimnasio de lunes a sábado
-                      <br />
-                      - $0.00 matrícula
-                      <br />- $30.00 cuota anual de mantenimiento
-                    </p>
-                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
-                      Incluye:
-                    </h4>
-                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
-                      <li>Periodización de entrenamiento</li>
-                      <li>Evaluación mensual</li>
-                      <li>Acceso ilimitado al gimnasio de lunes a sábado</li>
-                    </ul>
-                  </div>
-                  <div className="mt-auto">
-                    <button
-                      className="py-4 px-9 w-full font-semibold border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-blue-NV text-white hover:bg-gray-50 transition ease-in-out duration-200"
-                      type="button"
-                      onClick={handleButtonClick}
-                    >
-                      Conócenos
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              {/* Plan 9 */}
-              <div className="w-full md:w-1/3 p-4">
-                <div
-                  className="flex flex-col justify-between px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border-blueGray-100 rounded-4xl"
-                  style={{ backdropFilter: "blur(46px)", minHeight: "400px" }}
-                >
-                  <div>
-                    <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Entrenamiento Personal (12 días)
-                    </span>
-                    <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
-                      $175/mes
-                    </h3>
-                    <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Entrenamiento personal 12 días al mes
-                      <br />
-                      - Periodización de entrenamiento
-                      <br />
-                      - Evaluación mensual
-                      <br />
-                      - Acceso ilimitado al gimnasio de lunes a sábado
-                      <br />
-                      - $0.00 matrícula
-                      <br />- $30.00 cuota anual de mantenimiento
-                    </p>
-                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
-                      Incluye:
-                    </h4>
-                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
-                      <li>Periodización de entrenamiento</li>
-                      <li>Evaluación mensual</li>
-                      <li>Acceso ilimitado al gimnasio de lunes a sábado</li>
                     </ul>
                   </div>
                   <div className="mt-auto">
