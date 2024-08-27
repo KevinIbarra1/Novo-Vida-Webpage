@@ -31,13 +31,31 @@ export default function MembershipsSectionPricing2() {
                       $45/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Entrenamiento individual
+                      - Entrenamiento individual ilimitado de lunes a sábado
                       <br />
                       - Acceso ilimitado al gimnasio
                       <br />
                       - Plan nutricional para 30 días
-                      <br />- Guía de rutinas básicas
+                      <br />
+                      - Guía de rutinas básicas
+                      <br />
+                      - $45.00 mensual, 2 meses x $85.00, 3 meses x $120.00, 6
+                      meses x $198.00, 1 año x $348.00
+                      <br />
+                      - $10.00 matrícula
+                      <br />- $30.00 cuota anual de mantenimiento
                     </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>
+                        Entrenamiento individual ilimitado (Lunes a Sábado)
+                      </li>
+                      <li>Guía de rutinas básica</li>
+                      <li>Guía básica de alimentación</li>
+                      <li>Sala de espera para niños</li>
+                    </ul>
                   </div>
                   <div className="mt-auto">
                     <button
@@ -93,17 +111,32 @@ export default function MembershipsSectionPricing2() {
                 >
                   <div>
                     <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Estudiantes
+                      Oferta para Estudiantes (Deberá presentar ID de
+                      estudiante)
                     </span>
                     <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
                       $35/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Incluye guía de rutinas básicas
-                      <br />
                       - Entrenamiento individual ilimitado de lunes a sábado
-                      <br />- Sala de espera para niños
+                      <br />
+                      - Guía de rutinas básicas
+                      <br />
+                      - Guía básica de alimentación
+                      <br />
+                      - $10.00 matrícula
+                      <br />- $30.00 cuota anual de mantenimiento
                     </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>
+                        Entrenamiento individual ilimitado (Lunes a Sábado)
+                      </li>
+                      <li>Guía de rutinas básica</li>
+                      <li>Guía básica de alimentación</li>
+                    </ul>
                   </div>
                   <div className="mt-auto">
                     <button
@@ -116,6 +149,7 @@ export default function MembershipsSectionPricing2() {
                   </div>
                 </div>
               </div>
+
               {/* Plan 4 */}
               <div className="w-full md:w-1/3 p-4">
                 <div
@@ -133,7 +167,21 @@ export default function MembershipsSectionPricing2() {
                       - Personas de 55 años en adelante
                       <br />- Entrenamiento individual ilimitado de lunes a
                       sábado
+                      <br />- $29.00 mensual, 2 meses x $55.00 o 3 meses x
+                      $74.00
+                      <br />- $10.00 matrícula
+                      <br />- $30.00 cuota anual de mantenimiento
                     </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>
+                        Entrenamiento Individual Ilimitado (Lunes a Sábado)
+                      </li>
+                      <li>Guía de rutinas básica</li>
+                      <li>Guía básica de alimentación</li>
+                    </ul>
                   </div>
                   <div className="mt-auto">
                     <button
@@ -146,6 +194,7 @@ export default function MembershipsSectionPricing2() {
                   </div>
                 </div>
               </div>
+
               {/* Plan 5 */}
               <div className="w-full md:w-1/3 p-4">
                 <div
@@ -160,16 +209,30 @@ export default function MembershipsSectionPricing2() {
                       $80/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Entrenamiento individual
+                      - Entrenamiento individual ilimitado de lunes a sábado
                       <br />
                       - Acceso ilimitado al gimnasio
                       <br />
                       - Plan nutricional para 30 días
                       <br />
                       - Guía de rutinas básicas
+                      <br />
+                      - $20.00 matrícula
+                      <br />
+                      - $30.00 cuota anual de mantenimiento
                       <br />- Oferta válida mientras todos los participantes se
                       mantengan activos
                     </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>
+                        Entrenamiento individual ilimitado (Lunes a Sábado)
+                      </li>
+                      <li>Guía de rutinas básica</li>
+                      <li>Guía básica de alimentación</li>
+                    </ul>
                   </div>
                   <div className="mt-auto">
                     <button
@@ -182,6 +245,7 @@ export default function MembershipsSectionPricing2() {
                   </div>
                 </div>
               </div>
+
               {/* Plan 5 */}
               <div className="w-full md:w-1/3 p-4">
                 <div
@@ -190,22 +254,36 @@ export default function MembershipsSectionPricing2() {
                 >
                   <div>
                     <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Novo Family (4 Personas)
+                      Novo Family (3 Personas)
                     </span>
                     <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
                       $115/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Entrenamiento individual
+                      - Entrenamiento individual ilimitado de lunes a sábado
                       <br />
                       - Acceso ilimitado al gimnasio
                       <br />
                       - Plan nutricional para 30 días
                       <br />
                       - Guía de rutinas básicas
+                      <br />
+                      - $20.00 matrícula
+                      <br />
+                      - $30.00 cuota anual de mantenimiento
                       <br />- Oferta válida mientras todos los participantes se
                       mantengan activos
                     </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>
+                        Entrenamiento individual ilimitado (Lunes a Sábado)
+                      </li>
+                      <li>Guía de rutinas básica</li>
+                      <li>Guía básica de alimentación</li>
+                    </ul>
                   </div>
                   <div className="mt-auto">
                     <button
@@ -227,13 +305,14 @@ export default function MembershipsSectionPricing2() {
                 >
                   <div>
                     <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Servidor Público
+                      Servidor Público (Toda persona que trabaje con alguna
+                      agencia gubernamental)
                     </span>
                     <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
                       $35/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Personas que trabajen en agencias gubernamentales.{" "}
+                      - Personas que trabajen en agencias gubernamentales
                       <br />
                       - Incluye dos días a la semana de entrenamiento
                       personalizado
@@ -241,8 +320,25 @@ export default function MembershipsSectionPricing2() {
                       - Plan de sugerencias alimentarias mensual
                       <br />
                       - Evaluación mensual
-                      <br />- Acceso ilimitado al gimnasio de lunes a sábado
+                      <br />
+                      - Acceso ilimitado al gimnasio de lunes a sábado
+                      <br />
+                      - $20.00 matrícula
+                      <br />
+                      - $30.00 cuota anual de mantenimiento
+                      <br />- Oferta válida mientras todos los participantes se
+                      mantengan activos
                     </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>
+                        Entrenamiento individual ilimitado (Lunes a Sábado)
+                      </li>
+                      <li>Guía de rutinas básica</li>
+                      <li>Guía básica de alimentación</li>
+                    </ul>
                   </div>
                   <div className="mt-auto">
                     <button
@@ -255,6 +351,7 @@ export default function MembershipsSectionPricing2() {
                   </div>
                 </div>
               </div>
+
               {/* Plan 7 */}
               <div className="w-full md:w-1/3 p-4">
                 <div
@@ -263,19 +360,31 @@ export default function MembershipsSectionPricing2() {
                 >
                   <div>
                     <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Programa para bajar de peso
+                      Entrenamiento Personal (8 días)
                     </span>
                     <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
-                      $139/mes
+                      $130/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Personal training 2 días en semana
+                      - Personal training 8 días al mes
                       <br />
-                      - Plan alimentario mensual
+                      - Periodización de entrenamiento
                       <br />
                       - Evaluación mensual
-                      <br />- Acceso ilimitado al gimnasio
+                      <br />
+                      - Acceso ilimitado al gimnasio de lunes a sábado
+                      <br />
+                      - $0.00 matrícula
+                      <br />- $30.00 cuota anual de mantenimiento
                     </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>Periodización de entrenamiento</li>
+                      <li>Evaluación mensual</li>
+                      <li>Acceso ilimitado al gimnasio de lunes a sábado</li>
+                    </ul>
                   </div>
                   <div className="mt-auto">
                     <button
@@ -288,6 +397,7 @@ export default function MembershipsSectionPricing2() {
                   </div>
                 </div>
               </div>
+
               {/* Plan 8 */}
               <div className="w-full md:w-1/3 p-4">
                 <div
@@ -296,10 +406,10 @@ export default function MembershipsSectionPricing2() {
                 >
                   <div>
                     <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Entrenamiento Personal
+                      Entrenamiento Personal (16 días)
                     </span>
                     <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
-                      $130/mes
+                      $220/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
                       - Personal training 2 días en semana
@@ -307,8 +417,20 @@ export default function MembershipsSectionPricing2() {
                       - Periodización de entrenamiento
                       <br />
                       - Evaluación mensual
-                      <br />- Acceso ilimitado al gimnasio
+                      <br />
+                      - Acceso ilimitado al gimnasio de lunes a sábado
+                      <br />
+                      - $0.00 matrícula
+                      <br />- $30.00 cuota anual de mantenimiento
                     </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>Periodización de entrenamiento</li>
+                      <li>Evaluación mensual</li>
+                      <li>Acceso ilimitado al gimnasio de lunes a sábado</li>
+                    </ul>
                   </div>
                   <div className="mt-auto">
                     <button
@@ -321,6 +443,7 @@ export default function MembershipsSectionPricing2() {
                   </div>
                 </div>
               </div>
+
               {/* Plan 9 */}
               <div className="w-full md:w-1/3 p-4">
                 <div
@@ -329,21 +452,31 @@ export default function MembershipsSectionPricing2() {
                 >
                   <div>
                     <span className="mb-4 inline-block text-sm text-blue-NV font-semibold uppercase tracking-px leading-snug">
-                      Atleta
+                      Entrenamiento Personal (12 días)
                     </span>
                     <h3 className="mb-3 text-4xl text-gray-900 font-bold leading-none">
-                      $31.50/mes
+                      $175/mes
                     </h3>
                     <p className="mb-6 text-sm text-gray-600 font-medium leading-relaxed">
-                      - Entrenamiento individual
+                      - Entrenamiento personal 12 días al mes
                       <br />
-                      - Acceso ilimitado al gimnasio
+                      - Periodización de entrenamiento
                       <br />
-                      - Plan nutricional para 30 días
+                      - Evaluación mensual
                       <br />
-                      - Guía de rutinas básicas
-                      <br />- Se requiere evidencia
+                      - Acceso ilimitado al gimnasio de lunes a sábado
+                      <br />
+                      - $0.00 matrícula
+                      <br />- $30.00 cuota anual de mantenimiento
                     </p>
+                    <h4 className="mb-3 text-2xl text-gray-900 font-semibold leading-none">
+                      Incluye:
+                    </h4>
+                    <ul className="mb-6 text-sm text-gray-600 font-medium leading-relaxed list-disc pl-5">
+                      <li>Periodización de entrenamiento</li>
+                      <li>Evaluación mensual</li>
+                      <li>Acceso ilimitado al gimnasio de lunes a sábado</li>
+                    </ul>
                   </div>
                   <div className="mt-auto">
                     <button

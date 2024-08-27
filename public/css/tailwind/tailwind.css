@@ -918,6 +918,10 @@ video {
   resize: none;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1306,6 +1310,10 @@ video {
   padding-bottom: 2.25rem;
 }
 
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
 .pt-24 {
   padding-top: 6rem;
 }
@@ -1344,6 +1352,10 @@ video {
 
 .text-15xl {
   font-size: 6.875rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
 }
 
 .text-3xl {
