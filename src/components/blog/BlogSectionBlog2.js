@@ -118,6 +118,41 @@ export default function BlogSectionBlog2() {
                   <div className="overflow-hidden rounded-xl">
                     <img
                       className="transform hover:scale-105 transition ease-in-out duration-1000"
+                      src="pexels-chanita-sykes-417447-1095127.jpg" // Add your new image here
+                      alt="Blog 5"
+                      style={{ width: "162px", height: "162px" }}
+                    />
+                  </div>
+                </div>
+                <div className="flex-1 p-4">
+                  <div className="md:max-w-xs">
+                    <div className="flex flex-col justify-between h-full">
+                      <div className="mb-6">
+                        <p className="mb-1.5 text-sm text-gray-500 font-medium uppercase tracking-px">
+                          Bienestar
+                        </p>
+                        <a
+                          className="inline-block hover:text-gray-800 hover:underline"
+                          href="/Sueño" // Add the new link here
+                        >
+                          <h3 className="text-xl font-semibold leading-normal">
+                            Cómo el Ejercicio Regular Mejora la Calidad del
+                            Sueño
+                          </h3>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="w-full md:w-1/2 p-8">
+              <div className="flex flex-wrap lg:items-center -m-4">
+                <div className="w-auto p-4">
+                  <div className="overflow-hidden rounded-xl">
+                    <img
+                      className="transform hover:scale-105 transition ease-in-out duration-1000"
                       src="pexels-miriam-alonso-7592345.jpg"
                       alt="Blog 4"
                       style={{ width: "162px", height: "162px" }}
