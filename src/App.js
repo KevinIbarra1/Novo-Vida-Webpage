@@ -13,6 +13,7 @@ import BajarDePeso from "./pages/bajarDePeso.js";
 import Nutricion from "./pages/Nutricion.js";
 import Principiantes from "./pages/Principiantes.js";
 import RutinaEjercicio from "./pages/RutinaEjercicio.js";
+import Sueño from "./pages/Sueño.js";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
 
       <Route path="/rutinaEjercicio" element={<RutinaEjercicio />} />
       
+      <Route path="/sueño" element={<Sueño />} />
     </Routes>
   );
 }
