@@ -4,38 +4,35 @@ export default function BeforeAndAfter() {
   return (
     <div className="pb-12">
       <h4 className="mb-16 text-6xl md:text-7xl font-bold font-heading text-center tracking-px-n leading-tight">
-        Caso de Éxito
+        Casos de Éxito
       </h4>
-      <div className="flex flex-col md:flex-row md:space-x-4 justify-around items-center space-y-8 md:space-y-0">
+      <div
+        className="flex flex-col md:flex-row justify-center items-center gap-12 md:gap-0" // 50px gap on mobile, no gap on desktop
+        style={{ gap: "50px" }} // Ensures 50px on small screens
+      >
         {/* Before Image Section */}
         <div className="text-center flex-1">
-          <h5 className="px-4 font-medium hover:text-gray-700 text-lg md:text-xl navTextOption">
-            Antes
-          </h5>
           <div
-            className="overflow-hidden  rounded-md max-w-full mx-auto"
-            style={{ maxWidth: "350px", height: "500px" }}
+            className="overflow-hidden rounded-md mx-auto"
+            style={{ maxWidth: "400px", height: "400px" }} // Fixed size
           >
             <img
-              src="beforeClarimar.webp"
+              src="AracellysBeforeAfter.webp"
               alt="Antes"
-              className="h-full w-full object-cover" // Changed from object-contain to object-cover
+              className="w-full h-full object-contain" // Prevent distortion
             />
           </div>
         </div>
         {/* After Image Section */}
         <div className="text-center flex-1">
-          <h5 className="px-4 font-medium hover:text-gray-700 text-lg md:text-xl navTextOption">
-            Después
-          </h5>
           <div
-            className="overflow-hidden rounded-md max-w-full mx-auto"
-            style={{ maxWidth: "350px", height: "500px" }}
+            className="overflow-hidden rounded-md mx-auto"
+            style={{ maxWidth: "400px", height: "400px" }} // Fixed size
           >
             <img
-              src="IMG_7647.webp"
+              src="ClarimarBeforeAfter.webp"
               alt="Después"
-              className="h-full w-full object-cover" // Changed from object-contain to object-cover
+              className="w-full h-full object-contain" // Prevent distortion
             />
           </div>
         </div>
